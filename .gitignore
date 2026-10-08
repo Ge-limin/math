@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.log
+.DS_Store
+grassmann/results/
+grassmann/calib*/
+grassmann/run_all.out
+grassmann/exact-cache.json
