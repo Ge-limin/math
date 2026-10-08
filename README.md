@@ -1,6 +1,6 @@
 # math719
 
-1046 first values for blank cells of public tables of best-known geometric configurations,
+1049 first values for blank cells of public tables of best-known geometric configurations,
 computed on one laptop with Claude (Anthropic's model) in one night, October 8–9, 2026.
 
 The number 719 was the target because on October 6, 2026 OpenAI published
@@ -27,10 +27,10 @@ Nothing here is proven optimal. Each value is a lower bound: the best we found.
 | Grassmannian packings (Sloane / Cohn table) | N ≤ 100, rows the tables compute systematically | 660 |
 | Grassmannian packings | N = 101..120, inside rows the table extends past 120 | 120 |
 | Grassmannian packings | "sparse rows": rows where the table lists one special construction; N above it, up to 100 | 250 |
-| Plane max/min distance ratio (Friedman) | n = 32..50 | 16 |
-| **Total** | | **1046** |
+| Plane max/min distance ratio (Friedman) | n = 32..50 | 19 |
+| **Total** | | **1049** |
 
-The first band and the plane results (676) are the least arguable. The other two bands
+The first band and the plane results (679) are the least arguable. The other two bands
 extend rows rather than fill gaps inside a computed range; they are listed separately so anyone can
 draw the line where they like.
 

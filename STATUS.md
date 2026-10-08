@@ -23,7 +23,7 @@ One result = one previously blank cell (problem, size) of a public table, with
   grassmann/results/, progress in grassmann/results/progress.log, DONE marker when finished.
 - Publish step: `grassmann/finalize.py` exports packings/*.txt (integers), verifies
   exactly with verify.py, applies the counting rule, writes results.json / RESULTS.md.
-- Literature check (were these cells filled after 1997?): running, result pending.
+- Literature check (were these cells filled after 1997?): done, see "Night of 2026-10-08/09" below.
 
 ## To resume after an interruption
 

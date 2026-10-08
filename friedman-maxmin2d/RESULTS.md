@@ -1,6 +1,6 @@
 # Results: plane max/min distance ratio
 
-Accepted: 16 of 16 (n = 32..50).
+Accepted: 19 of 19 (n = 32..50).
 For reference our n=30 is 26.879265 (page: 26.879+), n=31 28.283577 (page: 28).
 
 | n | r^2 (truncated) | accepted |
@@ -20,4 +20,7 @@ For reference our n=30 is 26.879265 (page: 26.879+), n=31 28.283577 (page: 28).
 | 44 | 41.63370+ | yes |
 | 45 | 42.36644+ | yes |
 | 46 | 43.71614+ | yes |
-| 47 | 45.83335+ | yes |
+| 47 | 44.59452+ | yes |
+| 48 | 44.98168+ | yes |
+| 49 | 46.97025+ | yes |
+| 50 | 47.93329+ | yes |
