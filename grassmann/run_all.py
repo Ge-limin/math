@@ -15,14 +15,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "results")
 PY = os.path.join(HERE, "..", ".venv", "bin", "python")
 MAX_WORKERS = int(sys.argv[1]) if len(sys.argv) > 1 else 10
-LOAD_CEILING = 13.0          # 14 cores; leave room for the user and other work
+LOAD_CEILING = float(sys.argv[2]) if len(sys.argv) > 2 else 13.0   # 1-min load average, our own workers included
 
 
 def cells():
-    blanks = json.load(open(os.path.join(HERE, "blanks.json")))
-    chosen = [(m, n, N) for m, n, N in blanks if 8 <= m <= 16 and n in (2, 3) and 51 <= N <= 100]
-    backup = [(m, n, N) for m, n, N in blanks if 8 <= m <= 16 and n == 1 and 51 <= N <= 100]
-    return chosen + backup
+    """The work queue (queue.json): blank cells not dominated by a known construction, in order."""
+    return [tuple(c) for c in json.load(open(os.path.join(HERE, "queue.json")))]
 
 
 def budget(m, n, N):
@@ -36,7 +34,10 @@ def log(msg):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    todo = [c for c in cells() if not os.path.exists(os.path.join(OUT, "m%dn%dN%d.npy" % c))]
+    def busy(c):   # a solver from an earlier scheduler is still working on this cell
+        lg = os.path.join(OUT, "m%dn%dN%d.log" % c)
+        return os.path.exists(lg) and time.time() - os.path.getmtime(lg) < 1200
+    todo = [c for c in cells() if not os.path.exists(os.path.join(OUT, "m%dn%dN%d.npy" % c)) and not busy(c)]
     log(f"start: {len(todo)} cells to do, max {MAX_WORKERS} workers")
     running = []
     while todo or running:

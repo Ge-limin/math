@@ -29,3 +29,14 @@ One result = one previously blank cell (problem, size) of a public table, with
 
 `cd grassmann && ../.venv/bin/python run_all.py 10` (skips finished cells), then
 `../.venv/bin/python finalize.py 8`.
+
+## Night of 2026-10-08/09: what happened
+
+- Literature check found that Henry Cohn now maintains the table (cohn.mit.edu/grassmannian) and had
+  already filled 609 of the 1,252 cells first planned; those were dropped and the queue rebuilt from
+  cells blank in both tables (blanks-cohn-100.json, blanks-cohn-101-120.json).
+- Cells dominated by a known special construction (E8 lines in R^8; large constructions in the m=16 rows)
+  fail the trivial-bound rule and are reported as not accepted.
+- Added n = 4 rows m = 9..13 (blanks-cohn-n4.json) and "sparse rows" (blanks-sparse-rows.json) to reach the target.
+- repair.py rebuilt cells whose trivial bound comes from a packing at most 5 larger (7 recovered).
+- Second source: plane max/min distance ratio, Friedman's page, n = 32..50 (friedman-maxmin2d/).

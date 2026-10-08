@@ -59,6 +59,11 @@ def main():
     cache = json.load(open(cache_path)) if os.path.exists(cache_path) else {}
     cells = sorted(tuple(map(int, f[1:-4].replace("n", " ").replace("N", " ").split()))
                    for f in os.listdir(RES) if f.endswith(".npy"))
+    core = {tuple(c) for c in json.load(open(os.path.join(HERE, "blanks-cohn-100.json")))}
+    core |= {tuple(c) for c in json.load(open(os.path.join(HERE, "blanks-cohn-n4.json")))}   # n = 4 rows, N <= 100
+    extra = {tuple(c) for c in json.load(open(os.path.join(HERE, "blanks-cohn-101-120.json")))}
+    sparse = {tuple(c) for c in json.load(open(os.path.join(HERE, "blanks-sparse-rows.json")))}
+    cells = [c for c in cells if c in core or c in extra or c in sparse]       # only cells with no published value
     todo = []
     for c in cells:
         key = "m%dn%dN%d" % c
@@ -70,8 +75,9 @@ def main():
             cache["m%dn%dN%d" % cell] = {"num": num, "den": den, "mtime": mtime}
     json.dump(cache, open(cache_path, "w"))
 
+    # reference values: Sloane's 1997 table merged with Cohn's current table (cohn.mit.edu/grassmannian)
     table = {tuple(map(int, k.split(","))): {int(N): v for N, v in d.items()}
-             for k, d in json.load(open(os.path.join(HERE, "sloane-table.json"))).items()}
+             for k, d in json.load(open(os.path.join(HERE, "known-table.json"))).items()}
     ours = {c: Fraction(cache["m%dn%dN%d" % c]["num"], cache["m%dn%dN%d" % c]["den"]) for c in cells}
     rows, accepted = [], 0
     for (m, n, N), D in sorted(ours.items()):
@@ -83,12 +89,20 @@ def main():
         next_smaller = table[(m, n)][max(smaller_N)] if smaller_N else None
         ok = float(D) > trivial * (1 + 1e-9) and float(D) <= rankin + 1e-12
         accepted += ok
-        rows.append({"m": m, "n": n, "N": N, "D_exact": f"{D.numerator}/{D.denominator}", "D": trunc(D),
+        rows.append({"m": m, "n": n, "N": N, "band": "N<=100" if (m, n, N) in core else ("sparse row" if (m, n, N) in sparse else "N=101..120"), "D_exact": f"{D.numerator}/{D.denominator}", "D": trunc(D),
                      "trivial_bound": trivial, "rankin_bound": rankin,
                      "table_at_next_smaller_N": next_smaller, "margin_over_trivial": float(D) - trivial, "accepted": ok})
     json.dump(rows, open(os.path.join(HERE, "results.json"), "w"), indent=1)
+    keep = {"m%dn%dN%d.txt" % (r["m"], r["n"], r["N"]) for r in rows if r["accepted"]}
+    for f in os.listdir(PACK):                       # publish only accepted cells
+        if f.endswith(".txt") and f not in keep:
+            os.remove(os.path.join(PACK, f))
     with open(os.path.join(HERE, "RESULTS.md"), "w") as f:
         f.write(f"# Results\n\nAccepted: {accepted} of {len(rows)} computed cells.\n\n")
+        f.write("| band | accepted | computed |\n|---|---|---|\n")
+        for band in ("N<=100", "N=101..120", "sparse row"):
+            f.write(f"| {band} | {sum(r['accepted'] for r in rows if r['band'] == band)} | {sum(r['band'] == band for r in rows)} |\n")
+        f.write("\n")
         f.write("| m | n | N | min squared distance D (truncated) | trivial bound | margin | accepted |\n|---|---|---|---|---|---|---|\n")
         for r in rows:
             f.write(f"| {r['m']} | {r['n']} | {r['N']} | {r['D']} | {r['trivial_bound']:.6f} | {r['margin_over_trivial']:.2e} | {'yes' if r['accepted'] else 'no'} |\n")
