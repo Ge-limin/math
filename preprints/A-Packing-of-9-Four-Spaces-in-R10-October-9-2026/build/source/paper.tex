@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyvrb,multicol}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\newtheorem*{theorem}{Theorem}
+\title{A Packing of 9 Four-Spaces in $\mathbb{R}^{10}$}
+\author{Limin Ge\thanks{Found and checked by Claude, a model released by Anthropic, running on the author's laptop. The author sent the prompts.}}
+\date{October 9, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give 9 4-dimensional subspaces of $\mathbb{R}^{10}$ whose smallest squared chordal distance is at least 2.699735. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.666374, obtained by deleting 1 of the 10 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+\end{abstract}
+
+\section{Result}
+\begin{theorem}
+There are 9 subspaces of dimension 4 in $\mathbb{R}^{10}$ whose pairwise squared chordal distances $D(a,b) = 4 - \operatorname{tr}(P_aP_b)$ are all at least
+\[ D_{\min} = 2.699735\ldots \]
+\end{theorem}
+The exact value of $D_{\min}$, a rational number, is given in Appendix~A.
+
+
+\section{Context}
+N.~J.~A.~Sloane's \emph{Table of Best Grassmannian Packings} (last modified 1997), now maintained by Henry Cohn, lists values for some $N$ in the row $m=10$, $n=4$. The cell $N=9$ is blank in Sloane's table, in Sloane's coordinate files and in Cohn's table as checked on October 8, 2026. The best value implied by known packings is 2.666374, obtained by deleting 1 of the 10 four-spaces of the packing found by this search. The Rankin simplex bound for this cell is $4(10-4)/10\cdot 9/8 = 2.700000$, and the value above lies below it.
+
+
+\section{Verification}
+Each subspace is given by an integer $m\times n$ basis $Y$ (coordinates times $10^{12}$, rounded). With $G=Y^\top Y$ the projection is $P=YG^{-1}Y^\top$, so for two subspaces
+\[ \operatorname{tr}(P_aP_b)=\frac{\operatorname{tr}(\operatorname{adj}(G_a)\,A\,\operatorname{adj}(G_b)\,A^\top)}{\det G_a\det G_b},\qquad A=Y_a^\top Y_b, \]
+an exact rational number. No orthonormality is assumed and no floating point is used. Run
+\begin{verbatim}
+python grassmann/verify.py grassmann/packings/m10n4N9.txt
+\end{verbatim}
+in \url{https://github.com/Ge-limin/math719}.
+
+
+\section{How it was found}
+Many random starts of gradient descent on the Grassmannian against a log-sum-exp of the pairwise overlaps, sharpened over time, then a polishing stage (\texttt{grassmann/solve.py}); about 61 seconds on one laptop, with about ten such searches running at once.
+
+
+\appendix
+\section{Exact value}
+{\small
+\begin{verbatim}
+numerator:
+269973581349864111622613701047015553886662896827708881458765078122689496
+560713356523732656510922067195947646942385837418515808455109543707260869
+6269977569964205034516380712767893598981323625993
+denominator:
+100000000000304433862397466704639467934267741163143547784592020630025676
+492321297848589861770737049945944230617316011010350011444521673018036452
+2679655040170045033219177326422395191382067089434
+\end{verbatim}}
+
+\section{Coordinates}
+9 blocks of 10 rows with 4 integers each; divide by $10^{12}$. File: \texttt{grassmann/packings/m10n4N9.txt}.
+{\tiny
+\begin{multicols}{3}
+\VerbatimInput{coordinates.txt}
+\end{multicols}}
+\end{document}

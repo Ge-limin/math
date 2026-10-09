@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyvrb,multicol}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\newtheorem*{theorem}{Theorem}
+\title{A Packing of 70 Three-Spaces in $\mathbb{R}^{16}$}
+\author{Limin Ge\thanks{Found and checked by Claude, a model released by Anthropic, running on the author's laptop. The author sent the prompts.}}
+\date{October 9, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give 70 3-dimensional subspaces of $\mathbb{R}^{16}$ whose smallest squared chordal distance is at least 2.471792. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.471244, obtained by deleting 1 of the 71 three-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+\end{abstract}
+
+\section{Result}
+\begin{theorem}
+There are 70 subspaces of dimension 3 in $\mathbb{R}^{16}$ whose pairwise squared chordal distances $D(a,b) = 3 - \operatorname{tr}(P_aP_b)$ are all at least
+\[ D_{\min} = 2.471792\ldots \]
+\end{theorem}
+The exact value of $D_{\min}$, a rational number, is given in Appendix~A.
+
+
+\section{Context}
+N.~J.~A.~Sloane's \emph{Table of Best Grassmannian Packings} (last modified 1997), now maintained by Henry Cohn, lists values for some $N$ in the row $m=16$, $n=3$. The cell $N=70$ is blank in Sloane's table, in Sloane's coordinate files and in Cohn's table as checked on October 8, 2026. The best value implied by known packings is 2.471244, obtained by deleting 1 of the 71 three-spaces of the packing found by this search. The Rankin simplex bound for this cell is $3(16-3)/16\cdot 70/69 = 2.472826$, and the value above lies below it.
+
+
+\section{Verification}
+Each subspace is given by an integer $m\times n$ basis $Y$ (coordinates times $10^{12}$, rounded). With $G=Y^\top Y$ the projection is $P=YG^{-1}Y^\top$, so for two subspaces
+\[ \operatorname{tr}(P_aP_b)=\frac{\operatorname{tr}(\operatorname{adj}(G_a)\,A\,\operatorname{adj}(G_b)\,A^\top)}{\det G_a\det G_b},\qquad A=Y_a^\top Y_b, \]
+an exact rational number. No orthonormality is assumed and no floating point is used. Run
+\begin{verbatim}
+python grassmann/verify.py grassmann/packings/m16n3N70.txt
+\end{verbatim}
+in \url{https://github.com/Ge-limin/math719}.
+
+
+\section{How it was found}
+Many random starts of gradient descent on the Grassmannian against a log-sum-exp of the pairwise overlaps, sharpened over time, then a polishing stage (\texttt{grassmann/solve.py}); about 141 seconds on one laptop, with about ten such searches running at once.
+
+
+\appendix
+\section{Exact value}
+{\small
+\begin{verbatim}
+numerator:
+823930945709392404866813096214261636530687462484012209992531265411902738
+329653911190659795080234686704882035289833332137516207855647808696104091
+denominator:
+333333333333890148495899830574915130173796059139979858979317988049894027
+581119416156226058774810517215494520128156197396772853067524743516498132
+\end{verbatim}}
+
+\section{Coordinates}
+70 blocks of 16 rows with 3 integers each; divide by $10^{12}$. File: \texttt{grassmann/packings/m16n3N70.txt}.
+{\tiny
+\begin{multicols}{3}
+\VerbatimInput{coordinates.txt}
+\end{multicols}}
+\end{document}

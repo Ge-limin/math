@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyvrb,multicol}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\newtheorem*{theorem}{Theorem}
+\title{A Packing of 99 Planes in $\mathbb{R}^{12}$}
+\author{Limin Ge\thanks{Found and checked by Claude, a model released by Anthropic, running on the author's laptop. The author sent the prompts.}}
+\date{October 8, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give 99 2-dimensional subspaces of $\mathbb{R}^{12}$ whose smallest squared chordal distance is at least 1.598215. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 1.596811, obtained by deleting 1 of the 100 planes of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+\end{abstract}
+
+\section{Result}
+\begin{theorem}
+There are 99 subspaces of dimension 2 in $\mathbb{R}^{12}$ whose pairwise squared chordal distances $D(a,b) = 2 - \operatorname{tr}(P_aP_b)$ are all at least
+\[ D_{\min} = 1.598215\ldots \]
+\end{theorem}
+The exact value of $D_{\min}$, a rational number, is given in Appendix~A.
+
+
+\section{Context}
+N.~J.~A.~Sloane's \emph{Table of Best Grassmannian Packings} (last modified 1997), now maintained by Henry Cohn, lists values for some $N$ in the row $m=12$, $n=2$. The cell $N=99$ is blank in Sloane's table, in Sloane's coordinate files and in Cohn's table as checked on October 8, 2026. The best value implied by known packings is 1.596811, obtained by deleting 1 of the 100 planes of the packing found by this search. The Rankin simplex bound for this cell is $2(12-2)/12\cdot 99/98 = 1.683673$, and the value above lies below it.
+
+
+\section{Verification}
+Each subspace is given by an integer $m\times n$ basis $Y$ (coordinates times $10^{12}$, rounded). With $G=Y^\top Y$ the projection is $P=YG^{-1}Y^\top$, so for two subspaces
+\[ \operatorname{tr}(P_aP_b)=\frac{\operatorname{tr}(\operatorname{adj}(G_a)\,A\,\operatorname{adj}(G_b)\,A^\top)}{\det G_a\det G_b},\qquad A=Y_a^\top Y_b, \]
+an exact rational number. No orthonormality is assumed and no floating point is used. Run
+\begin{verbatim}
+python grassmann/verify.py grassmann/packings/m12n2N99.txt
+\end{verbatim}
+in \url{https://github.com/Ge-limin/math719}.
+
+
+\section{How it was found}
+Many random starts of gradient descent on the Grassmannian against a log-sum-exp of the pairwise overlaps, sharpened over time, then a polishing stage (\texttt{grassmann/solve.py}); about 188 seconds on one laptop, with about ten such searches running at once.
+
+
+\appendix
+\section{Exact value}
+{\small
+\begin{verbatim}
+numerator:
+159821523198673674389721213650907473975615913641830713404169104875964617
+6019514379448176782595055
+denominator:
+100000000000022504809619893288858212323888187742975758693444773143938546
+2907840724717804216790056
+\end{verbatim}}
+
+\section{Coordinates}
+99 blocks of 12 rows with 2 integers each; divide by $10^{12}$. File: \texttt{grassmann/packings/m12n2N99.txt}.
+{\tiny
+\begin{multicols}{4}
+\VerbatimInput{coordinates.txt}
+\end{multicols}}
+\end{document}

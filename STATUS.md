@@ -40,3 +40,11 @@ One result = one previously blank cell (problem, size) of a public table, with
 - Added n = 4 rows m = 9..13 (blanks-cohn-n4.json) and "sparse rows" (blanks-sparse-rows.json) to reach the target.
 - repair.py rebuilt cells whose trivial bound comes from a packing at most 5 larger (7 recovered).
 - Second source: plane max/min distance ratio, Friedman's page, n = 32..50 (friedman-maxmin2d/).
+
+## October 9: the collection (layout of github.com/openai/math)
+
+- `catalogue.py` selects exactly 719 of the 1,049 accepted results (660 cells N ≤ 100, 19 plane, 40 widest-margin
+  cells N = 101..120) and writes CONTENTS.md, overview.tex, preprints/<slug>/ (README + build/source/paper.tex),
+  exact/verification.yaml, catalogue.json. history.md, reasoning_traces/ and README.md are written by hand.
+- `exact/check_all.py` re-checks all 719 from the data files: 0 mismatches, 14 s with 4 workers.
+- Not done: PDFs (paper.pdf for each manuscript, overview.pdf). No TeX engine on this machine yet.

@@ -1,0 +1,24 @@
+# [A Packing of 101 Lines in R10](paper.pdf)
+
+Limin Ge  
+October 9, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m10n1N101.txt
+```
+
+Data: [`grassmann/packings/m10n1N101.txt`](../../grassmann/packings/m10n1N101.txt). Exact value: `55853178376897983695637680076221980828678712659/71428571428449168212253837870716001849713994315`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-101-Lines-in-R10-October-9-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 101 Lines in $\mathbb{R}^{10}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-101-Lines-in-R10-October-9-2026/paper.pdf}{LG:A-Packing-of-101-Lines-in-R10-October-9-2026}},
+  year = {2026}
+}
+```

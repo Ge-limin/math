@@ -1,0 +1,24 @@
+# [A Packing of 94 Lines in R13](paper.pdf)
+
+Limin Ge  
+October 8, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m13n1N94.txt
+```
+
+Data: [`grassmann/packings/m13n1N94.txt`](../../grassmann/packings/m13n1N94.txt). Exact value: `55441092341246871319955490749370990114381548629/62500000000056050209794135703753663345234590350`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-94-Lines-in-R13-October-8-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 94 Lines in $\mathbb{R}^{13}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-94-Lines-in-R13-October-8-2026/paper.pdf}{LG:A-Packing-of-94-Lines-in-R13-October-8-2026}},
+  year = {2026}
+}
+```

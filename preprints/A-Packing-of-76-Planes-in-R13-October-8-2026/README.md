@@ -1,0 +1,24 @@
+# [A Packing of 76 Planes in R13](paper.pdf)
+
+Limin Ge  
+October 8, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m13n2N76.txt
+```
+
+Data: [`grassmann/packings/m13n2N76.txt`](../../grassmann/packings/m13n2N76.txt). Exact value: `839382734318809510945879792085403845178490740798267904541503190557470319232982498182962337343713/499999999999696910501817852526899103977246169825718565576350567600507777880615542921534008721235`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-76-Planes-in-R13-October-8-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 76 Planes in $\mathbb{R}^{13}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-76-Planes-in-R13-October-8-2026/paper.pdf}{LG:A-Packing-of-76-Planes-in-R13-October-8-2026}},
+  year = {2026}
+}
+```

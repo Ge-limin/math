@@ -1,0 +1,24 @@
+# [A Packing of 100 Lines in R11](paper.pdf)
+
+Limin Ge  
+October 8, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m11n1N100.txt
+```
+
+Data: [`grassmann/packings/m11n1N100.txt`](../../grassmann/packings/m11n1N100.txt). Exact value: `51434030606271807264379645749221689057145760341/62499999999977728471054864243263248997457971630`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-100-Lines-in-R11-October-8-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 100 Lines in $\mathbb{R}^{11}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-100-Lines-in-R11-October-8-2026/paper.pdf}{LG:A-Packing-of-100-Lines-in-R11-October-8-2026}},
+  year = {2026}
+}
+```

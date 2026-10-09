@@ -1,0 +1,24 @@
+# [A Packing of 71 Lines in R15](paper.pdf)
+
+Limin Ge  
+October 8, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m15n1N71.txt
+```
+
+Data: [`grassmann/packings/m15n1N71.txt`](../../grassmann/packings/m15n1N71.txt). Exact value: `921253429467899896574791366483551904365550747119/1000000000000719856710526124204863780369023565960`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-71-Lines-in-R15-October-8-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 71 Lines in $\mathbb{R}^{15}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-71-Lines-in-R15-October-8-2026/paper.pdf}{LG:A-Packing-of-71-Lines-in-R15-October-8-2026}},
+  year = {2026}
+}
+```

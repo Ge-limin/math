@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyvrb,multicol}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\newtheorem*{theorem}{Theorem}
+\title{A Packing of 7 Four-Spaces in $\mathbb{R}^{13}$}
+\author{Limin Ge\thanks{Found and checked by Claude, a model released by Anthropic, running on the author's laptop. The author sent the prompts.}}
+\date{October 9, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give 7 4-dimensional subspaces of $\mathbb{R}^{13}$ whose smallest squared chordal distance is at least 3.230536. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 3.164606, obtained by deleting 1 of the 8 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+\end{abstract}
+
+\section{Result}
+\begin{theorem}
+There are 7 subspaces of dimension 4 in $\mathbb{R}^{13}$ whose pairwise squared chordal distances $D(a,b) = 4 - \operatorname{tr}(P_aP_b)$ are all at least
+\[ D_{\min} = 3.230536\ldots \]
+\end{theorem}
+The exact value of $D_{\min}$, a rational number, is given in Appendix~A.
+
+
+\section{Context}
+N.~J.~A.~Sloane's \emph{Table of Best Grassmannian Packings} (last modified 1997), now maintained by Henry Cohn, lists values for some $N$ in the row $m=13$, $n=4$. The cell $N=7$ is blank in Sloane's table, in Sloane's coordinate files and in Cohn's table as checked on October 8, 2026. The best value implied by known packings is 3.164606, obtained by deleting 1 of the 8 four-spaces of the packing found by this search. The Rankin simplex bound for this cell is $4(13-4)/13\cdot 7/6 = 3.230769$, and the value above lies below it.
+
+
+\section{Verification}
+Each subspace is given by an integer $m\times n$ basis $Y$ (coordinates times $10^{12}$, rounded). With $G=Y^\top Y$ the projection is $P=YG^{-1}Y^\top$, so for two subspaces
+\[ \operatorname{tr}(P_aP_b)=\frac{\operatorname{tr}(\operatorname{adj}(G_a)\,A\,\operatorname{adj}(G_b)\,A^\top)}{\det G_a\det G_b},\qquad A=Y_a^\top Y_b, \]
+an exact rational number. No orthonormality is assumed and no floating point is used. Run
+\begin{verbatim}
+python grassmann/verify.py grassmann/packings/m13n4N7.txt
+\end{verbatim}
+in \url{https://github.com/Ge-limin/math719}.
+
+
+\section{How it was found}
+Many random starts of gradient descent on the Grassmannian against a log-sum-exp of the pairwise overlaps, sharpened over time, then a polishing stage (\texttt{grassmann/solve.py}); about 61 seconds on one laptop, with about ten such searches running at once.
+
+
+\appendix
+\section{Exact value}
+{\small
+\begin{verbatim}
+numerator:
+323053609839238926561007369608448533212574715874650179943733174261541000
+069547042728907043866649322696194113069271438979706471736510721620601646
+5771709869530930713696465590903468058753163835199
+denominator:
+100000000000044830294694032275104071878498968183775351025635314361140033
+393766188052347495466096032832633720162188693968472201353081223093706393
+9457043760389704603355279207589776330525025387904
+\end{verbatim}}
+
+\section{Coordinates}
+7 blocks of 13 rows with 4 integers each; divide by $10^{12}$. File: \texttt{grassmann/packings/m13n4N7.txt}.
+{\tiny
+\begin{multicols}{3}
+\VerbatimInput{coordinates.txt}
+\end{multicols}}
+\end{document}

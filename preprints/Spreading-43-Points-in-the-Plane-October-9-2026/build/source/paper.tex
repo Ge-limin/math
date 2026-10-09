@@ -1,0 +1,56 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fancyvrb,multicol}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\newtheorem*{theorem}{Theorem}
+\title{Spreading 43 Points in the Plane}
+\author{Limin Ge\thanks{Found and checked by Claude, a model released by Anthropic, running on the author's laptop. The author sent the prompts.}}
+\date{October 9, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We place 43 points in the plane so that the squared ratio of the largest to the smallest distance between them is at most 40.63406+. Erich Friedman's table of best known configurations lists n up to 31. Deleting a point from our 44-point configuration gives 41.63370; this one is smaller. The ratio is computed exactly from the published coordinates. We do not claim it is optimal.
+\end{abstract}
+
+\section{Result}
+\begin{theorem}
+There are 43 points in the plane with
+\[ \Bigl(\frac{\max d}{\min d}\Bigr)^2 = 40.63406\ldots \]
+\end{theorem}
+The exact value, a rational number, is given in Appendix~A.
+
+
+\section{Context}
+Erich Friedman's page \emph{Minimizing the Ratio of Maximum to Minimum Distance} lists the best known configurations for $n\le 31$. The value for $n=43$ is not on the page. Deleting a point from our 44-point configuration gives 41.63370; this one is smaller.
+
+
+\section{Verification}
+The coordinates are decimals with 12 digits after the point, so they are exact rationals; all squared distances, and their largest-to-smallest ratio, are computed with integers. Run
+\begin{verbatim}
+python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n43.txt
+\end{verbatim}
+in \url{https://github.com/Ge-limin/math719}.
+
+
+\section{How it was found}
+Random starts of a constrained local optimizer (SLSQP), then basin hopping seeded from the neighbouring sizes (\texttt{friedman-maxmin2d/}).
+
+
+\appendix
+\section{Exact value}
+{\small
+\begin{verbatim}
+numerator:
+40634064449975573951068738
+denominator:
+999999999998783223429397
+\end{verbatim}}
+
+\section{Coordinates}
+43 points, $x$ and $y$ per line. File: \texttt{friedman-maxmin2d/coords/n43.txt}.
+{\tiny
+\begin{multicols}{2}
+\VerbatimInput{coordinates.txt}
+\end{multicols}}
+\end{document}

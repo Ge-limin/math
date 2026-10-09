@@ -1,0 +1,24 @@
+# [A Packing of 100 Planes in R13](paper.pdf)
+
+Limin Ge  
+October 8, 2026
+
+## Check it
+
+```
+python grassmann/verify.py grassmann/packings/m13n2N100.txt
+```
+
+Data: [`grassmann/packings/m13n2N100.txt`](../../grassmann/packings/m13n2N100.txt). Exact value: `821361818857618558924146748652753101434199901439375520770731338625209872405701348884534273535645/499999999999187529464547428786624358324952072685102376987392520336020156222939481560507760809077`.
+
+## Citation
+
+```bibtex
+@misc{LG:A-Packing-of-100-Planes-in-R13-October-8-2026,
+  author = {{Limin Ge}},
+  title = {{A Packing of 100 Planes in $\mathbb{R}^{13}$}},
+  howpublished = {math719 preprint
+                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-100-Planes-in-R13-October-8-2026/paper.pdf}{LG:A-Packing-of-100-Planes-in-R13-October-8-2026}},
+  year = {2026}
+}
+```
