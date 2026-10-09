@@ -2,7 +2,7 @@
 version: "v0.1"
 
 project:
-  name: "math719"
+  name: "Limin Ge math repository"
   description: "Exact verifications accompanying a mathematics manuscript collection."
   authors: ["Limin Ge"]
   license: "MIT"

@@ -30,7 +30,7 @@ from fractions import Fraction
 HERE = os.path.dirname(os.path.abspath(__file__))
 G = os.path.join(HERE, "grassmann")
 P2 = os.path.join(HERE, "friedman-maxmin2d")
-REPO = "https://github.com/Ge-limin/math719"
+REPO = "https://github.com/Ge-limin/math"
 AUTHOR = "Limin Ge"
 TARGET = 722            # manuscripts released, as in OpenAI's first README (October 6, 2026)
 
@@ -306,7 +306,7 @@ def write_preprint(x):
         f"## Check it\n\n```\n{x['check']}\n```\n\nData: [`{x['data']}`](../../{x['data']}). Exact value: `{x['exact']}`.\n\n"
         "## Citation\n\n```bibtex\n"
         f"@misc{{LG:{x['slug']},\n  author = {{{{{AUTHOR}}}}},\n  title = {{{{{x['title_tex']}}}}},\n"
-        f"  howpublished = {{math719 preprint\n                  \\href{{{url}}}{{LG:{x['slug']}}}}},\n  year = {{2026}}\n}}\n```\n")
+        f"  howpublished = {{Limin Ge Math Release preprint\n                  \\href{{{url}}}{{LG:{x['slug']}}}}},\n  year = {{2026}}\n}}\n```\n")
 
 
 def write_contents(fams):
@@ -401,7 +401,7 @@ def write_overview(fams, release_date):
 
 def write_verification(ms):
     out = ["# Catalog of manuscripts with an exactly verified main result. Paths are relative to the repository root.\n",
-           'version: "v0.1"\n\nproject:\n  name: "math719"\n'
+           'version: "v0.1"\n\nproject:\n  name: "Limin Ge math repository"\n'
            '  description: "Exact verifications accompanying a mathematics manuscript collection."\n'
            f'  authors: ["{AUTHOR}"]\n  license: "MIT"\n\n'
            f"summary:\n  manuscripts: {len(ms)}\n  verified: {len(ms)}\n  share: \"100%\"\n\nsources:\n"]

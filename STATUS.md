@@ -1,4 +1,4 @@
-# math719 — working status
+# math (formerly math719) — working status
 
 Goal (Limin, 2026-10-08 night): publish, on GitHub only and never submitted to any
 maintainer, at least 719 first-ever "trivial" math results — blank cells of public

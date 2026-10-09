@@ -59,6 +59,10 @@ We will preserve the release history of this collection. Corrections and revisio
 
 To cite an individual manuscript, use the BibTeX block in its directory.
 
+This repository follows [openai/math](https://github.com/openai/math). When that repository changes, an issue is opened here automatically ([`.github/workflows/follow-openai.yml`](.github/workflows/follow-openai.yml)), and this collection is updated to match.
+
+Issues, pull requests and discussions are open.
+
 ## License
 
 MIT for the code. The configurations are free to use; a link back is appreciated.

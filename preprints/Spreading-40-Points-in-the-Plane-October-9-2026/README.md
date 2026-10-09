@@ -17,8 +17,8 @@ Data: [`friedman-maxmin2d/coords/n40.txt`](../../friedman-maxmin2d/coords/n40.tx
 @misc{LG:Spreading-40-Points-in-the-Plane-October-9-2026,
   author = {{Limin Ge}},
   title = {{Spreading 40 Points in the Plane}},
-  howpublished = {math719 preprint
-                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/Spreading-40-Points-in-the-Plane-October-9-2026/paper.pdf}{LG:Spreading-40-Points-in-the-Plane-October-9-2026}},
+  howpublished = {Limin Ge Math Release preprint
+                  \href{https://github.com/Ge-limin/math/blob/main/preprints/Spreading-40-Points-in-the-Plane-October-9-2026/paper.pdf}{LG:Spreading-40-Points-in-the-Plane-October-9-2026}},
   year = {2026}
 }
 ```

@@ -17,8 +17,8 @@ Data: [`grassmann/packings/m11n4N6.txt`](../../grassmann/packings/m11n4N6.txt). 
 @misc{LG:A-Packing-of-6-Four-Spaces-in-R11-October-9-2026,
   author = {{Limin Ge}},
   title = {{A Packing of 6 Four-Spaces in $\mathbb{R}^{11}$}},
-  howpublished = {math719 preprint
-                  \href{https://github.com/Ge-limin/math719/blob/main/preprints/A-Packing-of-6-Four-Spaces-in-R11-October-9-2026/paper.pdf}{LG:A-Packing-of-6-Four-Spaces-in-R11-October-9-2026}},
+  howpublished = {Limin Ge Math Release preprint
+                  \href{https://github.com/Ge-limin/math/blob/main/preprints/A-Packing-of-6-Four-Spaces-in-R11-October-9-2026/paper.pdf}{LG:A-Packing-of-6-Four-Spaces-in-R11-October-9-2026}},
   year = {2026}
 }
 ```
