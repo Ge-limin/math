@@ -11,3 +11,4 @@ grassmann/sloane-files/
 friedman-maxmin2d/logs/
 friedman-maxmin2d/bests/
 grassmann/known-table.json.bak
+*.out

@@ -1,5 +1,3 @@
-# Packing of N=59 2-dimensional subspaces of R^13; each block is an m x n basis (integers / 10^12)
-# m n N 13 2 59
 -153535630037 225323081184
 -147342611232 226956950269
 20004590628 -49826551274

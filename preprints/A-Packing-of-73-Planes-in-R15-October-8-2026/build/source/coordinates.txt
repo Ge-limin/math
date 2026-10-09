@@ -1,5 +1,3 @@
-# Packing of N=73 2-dimensional subspaces of R^15; each block is an m x n basis (integers / 10^12)
-# m n N 15 2 73
 -132118653790 -289986309429
 -179822440885 -185334538928
 -350478408692 167065278765

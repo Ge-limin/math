@@ -1,5 +1,3 @@
-# n=42 points in the plane; r^2 = (max squared distance)/(min squared distance) = 39718260236823674496400313/999999999998115725761970
-# x y per line, exact decimals with 12 digits after the point
 -2.020742892317 -4.998631242118
 -5.286004191788 -1.124734218641
 -5.133897595883 -3.071946484902

@@ -1,6 +1,6 @@
 # Mathematics manuscript collection
 
-**719 manuscripts covering 26 result families.**
+**722 manuscripts covering 26 result families.**
 
 [**Read the overview PDF**](overview.pdf).
 
@@ -13,7 +13,7 @@ Each result description is followed by its constituent manuscripts and their abs
 <tbody><tr>
 <td>
 
-**001. Packings of lines in R10.** First values for 6 blank cells (N = 101, 103, 106, 109, 119–120) in the row m = 10, n = 1 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
+**001. Packings of lines in R10.** First values for 7 blank cells (N = 101, 103, 106, 109, 112, 119–120) in the row m = 10, n = 1 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
 
 </td>
 </tr></tbody>
@@ -50,6 +50,15 @@ We give 106 1-dimensional subspaces of R^10 whose smallest squared chordal dista
 &emsp;[A Packing of 109 Lines in R10](preprints/A-Packing-of-109-Lines-in-R10-October-9-2026/paper.pdf)
 
 We give 109 1-dimensional subspaces of R^10 whose smallest squared chordal distance is at least 0.772262. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.770772, obtained by deleting 1 of the 110 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+
+</td>
+</tr></tbody>
+<tbody><tr>
+<td>
+
+&emsp;[A Packing of 112 Lines in R10](preprints/A-Packing-of-112-Lines-in-R10-October-9-2026/paper.pdf)
+
+We give 112 1-dimensional subspaces of R^10 whose smallest squared chordal distance is at least 0.768892. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.767532, obtained by deleting 1 of the 113 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
 
 </td>
 </tr></tbody>
@@ -234,7 +243,7 @@ We give 100 1-dimensional subspaces of R^11 whose smallest squared chordal dista
 <tbody><tr>
 <td>
 
-**003. Packings of lines in R12.** First values for 12 blank cells (N = 95–100, 104–105, 111–112, 119–120) in the row m = 12, n = 1 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
+**003. Packings of lines in R12.** First values for 14 blank cells (N = 95–100, 104–105, 109, 111–112, 116, 119–120) in the row m = 12, n = 1 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
 
 </td>
 </tr></tbody>
@@ -313,6 +322,15 @@ We give 105 1-dimensional subspaces of R^12 whose smallest squared chordal dista
 <tbody><tr>
 <td>
 
+&emsp;[A Packing of 109 Lines in R12](preprints/A-Packing-of-109-Lines-in-R12-October-9-2026/paper.pdf)
+
+We give 109 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.843427. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.842052, obtained by deleting 1 of the 110 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+
+</td>
+</tr></tbody>
+<tbody><tr>
+<td>
+
 &emsp;[A Packing of 111 Lines in R12](preprints/A-Packing-of-111-Lines-in-R12-October-9-2026/paper.pdf)
 
 We give 111 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.841312. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.839898, obtained by deleting 1 of the 112 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
@@ -325,6 +343,15 @@ We give 111 1-dimensional subspaces of R^12 whose smallest squared chordal dista
 &emsp;[A Packing of 112 Lines in R12](preprints/A-Packing-of-112-Lines-in-R12-October-9-2026/paper.pdf)
 
 We give 112 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.839898. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.838428, obtained by deleting 1 of the 113 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+
+</td>
+</tr></tbody>
+<tbody><tr>
+<td>
+
+&emsp;[A Packing of 116 Lines in R12](preprints/A-Packing-of-116-Lines-in-R12-October-9-2026/paper.pdf)
+
+We give 116 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.835701. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.834328, obtained by deleting 1 of the 117 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
 
 </td>
 </tr></tbody>

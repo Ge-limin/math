@@ -32,7 +32,12 @@ G = os.path.join(HERE, "grassmann")
 P2 = os.path.join(HERE, "friedman-maxmin2d")
 REPO = "https://github.com/Ge-limin/math719"
 AUTHOR = "Limin Ge"
-TARGET = 719
+TARGET = 722            # manuscripts released, as in OpenAI's first README (October 6, 2026)
+
+# Withdrawn after release, as OpenAI withdrew three manuscripts on October 7.
+# The manuscripts stay in preprints/ with a notice; they leave the catalogue.
+WITHDRAWN_ON = "October 9, 2026"
+WITHDRAWN = {}
 
 NOUN = {1: ("line", "lines"), 2: ("plane", "planes"), 3: ("three-space", "three-spaces"), 4: ("four-space", "four-spaces")}
 DISCIPLINES = ["Real projective geometry", "Coding theory", "Discrete geometry"]
@@ -265,15 +270,21 @@ def span(Ns):
 def write_preprint(x):
     d = os.path.join(HERE, "preprints", x["slug"])
     os.makedirs(os.path.join(d, "build", "source"), exist_ok=True)
-    shutil.copy(os.path.join(HERE, x["data"]), os.path.join(d, "build", "source", "coordinates.txt"))
+    with open(os.path.join(d, "build", "source", "coordinates.txt"), "w") as f:      # numbers only; the text says what they are
+        f.writelines(l for l in open(os.path.join(HERE, x["data"])) if not l.startswith("#"))
     num, den = x["exact"].split("/")
     wrap = lambda z: "\n".join(z[i:i + 72] for i in range(0, len(z), 72))
     t = dict(x["tex"], datafile="coordinates.txt", exact_lines="numerator:\n" + wrap(num) + "\ndenominator:\n" + wrap(den), title=x["title_tex"], author=AUTHOR, date=x["date"],
              abstract=x["abstract_tex"])
     open(os.path.join(d, "build", "source", "paper.tex"), "w").write(PAPER_TEX % t)
     url = f"{REPO}/blob/main/preprints/{x['slug']}/paper.pdf"
+    notice = ""
+    if x["cell"] in WITHDRAWN:
+        notice = (f"**Withdrawn on {WITHDRAWN_ON}.**\n\n{WITHDRAWN[x['cell']]}\n\n"
+                  "**This withdrawal concerns significance; it does not assert that the configuration is wrong.** "
+                  "The manuscript and its data remain below.\n\n")
     open(os.path.join(d, "README.md"), "w").write(
-        f"# [{x['title']}](paper.pdf)\n\n{AUTHOR}  \n{x['date']}\n\n"
+        f"# [{x['title']}](paper.pdf)\n\n{AUTHOR}  \n{x['date']}\n\n{notice}"
         f"## Check it\n\n```\n{x['check']}\n```\n\nData: [`{x['data']}`](../../{x['data']}). Exact value: `{x['exact']}`.\n\n"
         "## Citation\n\n```bibtex\n"
         f"@misc{{LG:{x['slug']},\n  author = {{{{{AUTHOR}}}}},\n  title = {{{{{x['title_tex']}}}}},\n"
@@ -281,7 +292,7 @@ def write_preprint(x):
 
 
 def write_contents(fams):
-    out = [f"# Mathematics manuscript collection\n\n**{TARGET} manuscripts covering {len(fams)} result families.**\n\n"
+    out = [f"# Mathematics manuscript collection\n\n**{sum(len(f['items']) for f in fams)} manuscripts covering {len(fams)} result families.**\n\n"
            "[**Read the overview PDF**](overview.pdf).\n\n## Manuscript map\n\n"
            "Each result description is followed by its constituent manuscripts and their abstracts. Paper titles link directly to PDFs.\n\n"
            "<table>\n<thead><tr><th>Result</th></tr></thead>\n"]
@@ -295,7 +306,11 @@ def write_contents(fams):
 
 OVERVIEW_HEAD = r"""\documentclass[11pt,a4paper]{article}
 \usepackage[a4paper,left=21mm,right=21mm,top=20mm,bottom=20mm,headheight=12pt,headsep=6mm,footskip=9mm]{geometry}
-\usepackage{amsmath,amssymb}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmathfont{texgyrepagella-math.otf}
 \usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{fancyhdr,lastpage,xcolor,ragged2e,needspace}
 \definecolor{muted}{gray}{0.38}
@@ -348,7 +363,7 @@ OVERVIEW_HEAD = r"""\documentclass[11pt,a4paper]{article}
 
 
 def write_overview(fams, release_date):
-    out = [OVERVIEW_HEAD % dict(author=AUTHOR, fams=len(fams), target=TARGET, date=release_date, repo=REPO)]
+    out = [OVERVIEW_HEAD % dict(author=AUTHOR, fams=len(fams), target=sum(len(f["items"]) for f in fams), date=release_date, repo=REPO)]
     for i, d in enumerate(DISCIPLINES, 1):
         out.append(f"\\noindent\\hyperlink{{subject{i}}}{{{d}}}\\nobreak\\hfill\\pageref*{{subject{i}}}\\par\\vspace{{5pt}}\n")
     out.append("\n\\clearpage\n\n")
@@ -357,7 +372,7 @@ def write_overview(fams, release_date):
         for f in fams:
             if f["discipline"] != d:
                 continue
-            links = "\\enspace\\textperiodcentered\\enspace".join(
+            links = "\\enspace\\textperiodcentered\\enspace\\allowbreak ".join(
                 f"\\href{{{REPO}/blob/main/preprints/{x['slug']}/paper.pdf}}{{{'n' if x['kind'] == 'plane' else 'N'}\\,=\\,{x['N']}}}"
                 for x in f["items"])
             title = f["title"].replace(f"R{f.get('m')}", f"$\\mathbb{{R}}^{{{f.get('m')}}}$") if f["kind"] == "grassmann" else f["title"]
@@ -391,19 +406,23 @@ def main():
     ctx = dict(known=known, sloane=sloane, ours=ours)
     ms = [grass_manuscript(r, ctx) for r in grass] + [plane_manuscript(r) for r in plane]
     assert len(ms) == TARGET and len({x["slug"] for x in ms}) == TARGET
-    fams = families(ms)
-    shutil.rmtree(os.path.join(HERE, "preprints"), ignore_errors=True)
+    assert set(WITHDRAWN) <= {x["cell"] for x in ms}
+    slugs = {x["slug"] for x in ms}
+    for old in os.listdir(os.path.join(HERE, "preprints")) if os.path.isdir(os.path.join(HERE, "preprints")) else []:
+        if old not in slugs:
+            shutil.rmtree(os.path.join(HERE, "preprints", old))
     for x in ms:
         write_preprint(x)
+    fams = families([x for x in ms if x["cell"] not in WITHDRAWN])
     write_contents(fams)
     write_overview(fams, "October 9, 2026")
     write_verification([x for f in fams for x in f["items"]])
     secs = [x["seconds"] for x in ms if x["seconds"]]
-    stats = {"manuscripts": len(ms), "families": len(fams), "accepted_total": accepted_total,
+    stats = {"released": len(ms), "withdrawn": len(WITHDRAWN), "catalogued": sum(len(f["items"]) for f in fams), "families": len(fams), "accepted_total": accepted_total,
              "by_discipline": {d: sum(len(f["items"]) for f in fams if f["discipline"] == d) for d in DISCIPLINES},
              "families_by_discipline": {d: sum(f["discipline"] == d for f in fams) for d in DISCIPLINES},
              "grassmann_seconds_mean": sum(secs) / len(secs), "grassmann_seconds_total": sum(secs), "with_seconds": len(secs)}
-    json.dump({"stats": stats, "manuscripts": [{k: v for k, v in x.items() if k != "tex"} for x in ms],
+    json.dump({"stats": stats, "manuscripts": [dict({k: v for k, v in x.items() if k != "tex"}, withdrawn=x["cell"] in WITHDRAWN) for x in ms],
                "families": [{"no": f["no"], "title": f["title"], "discipline": f["discipline"],
                              "manuscripts": [x["slug"] for x in f["items"]]} for f in fams]},
               open(os.path.join(HERE, "catalogue.json"), "w"), indent=1, default=list)

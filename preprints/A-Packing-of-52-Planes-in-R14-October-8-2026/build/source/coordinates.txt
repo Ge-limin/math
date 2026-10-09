@@ -1,5 +1,3 @@
-# Packing of N=52 2-dimensional subspaces of R^14; each block is an m x n basis (integers / 10^12)
-# m n N 14 2 52
 87979057390 234240380044
 -202229806945 -251304405255
 43812369191 365270774863

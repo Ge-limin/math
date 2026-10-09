@@ -1,10 +1,12 @@
 {
  "stats": {
-  "manuscripts": 719,
+  "released": 722,
+  "withdrawn": 0,
+  "catalogued": 722,
   "families": 26,
   "accepted_total": 1049,
   "by_discipline": {
-   "Real projective geometry": 179,
+   "Real projective geometry": 182,
    "Coding theory": 521,
    "Discrete geometry": 19
   },
@@ -13,9 +15,9 @@
    "Coding theory": 18,
    "Discrete geometry": 1
   },
-  "grassmann_seconds_mean": 132.22857142857143,
-  "grassmann_seconds_total": 92560,
-  "with_seconds": 700
+  "grassmann_seconds_mean": 132.04409672830727,
+  "grassmann_seconds_total": 92827,
+  "with_seconds": 703
  },
  "manuscripts": [
   {
@@ -39,7 +41,8 @@
    "data": "grassmann/packings/m9n4N5.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N5.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -62,7 +65,8 @@
    "data": "grassmann/packings/m9n4N6.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N6.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -85,7 +89,8 @@
    "data": "grassmann/packings/m9n4N7.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N7.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -108,7 +113,8 @@
    "data": "grassmann/packings/m9n4N8.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N8.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -131,7 +137,8 @@
    "data": "grassmann/packings/m9n4N9.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N9.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -154,7 +161,8 @@
    "data": "grassmann/packings/m9n4N10.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N10.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -177,7 +185,8 @@
    "data": "grassmann/packings/m9n4N11.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N11.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -200,7 +209,8 @@
    "data": "grassmann/packings/m9n4N12.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N12.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -223,7 +233,8 @@
    "data": "grassmann/packings/m9n4N13.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N13.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -246,7 +257,8 @@
    "data": "grassmann/packings/m9n4N14.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N14.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -269,7 +281,8 @@
    "data": "grassmann/packings/m9n4N15.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N15.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -292,7 +305,8 @@
    "data": "grassmann/packings/m9n4N16.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N16.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -315,7 +329,8 @@
    "data": "grassmann/packings/m9n4N17.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N17.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -338,7 +353,8 @@
    "data": "grassmann/packings/m9n4N18.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N18.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -361,7 +377,8 @@
    "data": "grassmann/packings/m9n4N19.txt",
    "check": "python grassmann/verify.py grassmann/packings/m9n4N19.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -384,7 +401,8 @@
    "data": "grassmann/packings/m10n4N5.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N5.txt",
    "seconds": 60,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -407,7 +425,8 @@
    "data": "grassmann/packings/m10n4N6.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N6.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -430,7 +449,8 @@
    "data": "grassmann/packings/m10n4N7.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N7.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -453,7 +473,8 @@
    "data": "grassmann/packings/m10n4N8.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N8.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -476,7 +497,8 @@
    "data": "grassmann/packings/m10n4N9.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N9.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -499,7 +521,8 @@
    "data": "grassmann/packings/m10n4N10.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N10.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -522,7 +545,8 @@
    "data": "grassmann/packings/m10n4N11.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N11.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -545,7 +569,8 @@
    "data": "grassmann/packings/m10n4N12.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N12.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -568,7 +593,8 @@
    "data": "grassmann/packings/m10n4N13.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N13.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -591,7 +617,8 @@
    "data": "grassmann/packings/m10n4N14.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N14.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -614,7 +641,8 @@
    "data": "grassmann/packings/m10n4N15.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N15.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -637,7 +665,8 @@
    "data": "grassmann/packings/m10n4N16.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N16.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -660,7 +689,8 @@
    "data": "grassmann/packings/m10n4N17.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N17.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -683,7 +713,8 @@
    "data": "grassmann/packings/m10n4N18.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N18.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -706,7 +737,8 @@
    "data": "grassmann/packings/m10n4N19.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N19.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -729,7 +761,8 @@
    "data": "grassmann/packings/m10n4N20.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n4N20.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -752,7 +785,8 @@
    "data": "grassmann/packings/m11n1N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N84.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -775,7 +809,8 @@
    "data": "grassmann/packings/m11n1N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N85.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -798,7 +833,8 @@
    "data": "grassmann/packings/m11n1N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N86.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -821,7 +857,8 @@
    "data": "grassmann/packings/m11n1N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N87.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -844,7 +881,8 @@
    "data": "grassmann/packings/m11n1N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N88.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -867,7 +905,8 @@
    "data": "grassmann/packings/m11n1N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N89.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -890,7 +929,8 @@
    "data": "grassmann/packings/m11n1N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N90.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -913,7 +953,8 @@
    "data": "grassmann/packings/m11n1N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N91.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -936,7 +977,8 @@
    "data": "grassmann/packings/m11n1N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N92.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -959,7 +1001,8 @@
    "data": "grassmann/packings/m11n1N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N93.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -982,7 +1025,8 @@
    "data": "grassmann/packings/m11n1N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N94.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1005,7 +1049,8 @@
    "data": "grassmann/packings/m11n1N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N95.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1028,7 +1073,8 @@
    "data": "grassmann/packings/m11n1N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N96.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1051,7 +1097,8 @@
    "data": "grassmann/packings/m11n1N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N97.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1074,7 +1121,8 @@
    "data": "grassmann/packings/m11n1N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N98.txt",
    "seconds": 81,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1097,7 +1145,8 @@
    "data": "grassmann/packings/m11n1N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N99.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1120,7 +1169,8 @@
    "data": "grassmann/packings/m11n1N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n1N100.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1143,7 +1193,8 @@
    "data": "grassmann/packings/m11n2N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N84.txt",
    "seconds": 120,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1166,7 +1217,8 @@
    "data": "grassmann/packings/m11n2N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N85.txt",
    "seconds": 210,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1189,7 +1241,8 @@
    "data": "grassmann/packings/m11n2N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N86.txt",
    "seconds": 213,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1212,7 +1265,8 @@
    "data": "grassmann/packings/m11n2N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N87.txt",
    "seconds": 215,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1235,7 +1289,8 @@
    "data": "grassmann/packings/m11n2N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N88.txt",
    "seconds": 220,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1258,7 +1313,8 @@
    "data": "grassmann/packings/m11n2N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N89.txt",
    "seconds": 220,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1281,7 +1337,8 @@
    "data": "grassmann/packings/m11n2N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N90.txt",
    "seconds": 223,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1304,7 +1361,8 @@
    "data": "grassmann/packings/m11n2N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N91.txt",
    "seconds": 224,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1327,7 +1385,8 @@
    "data": "grassmann/packings/m11n2N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N92.txt",
    "seconds": 168,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1350,7 +1409,8 @@
    "data": "grassmann/packings/m11n2N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N93.txt",
    "seconds": 173,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1373,7 +1433,8 @@
    "data": "grassmann/packings/m11n2N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N94.txt",
    "seconds": 178,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1396,7 +1457,8 @@
    "data": "grassmann/packings/m11n2N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N95.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1419,7 +1481,8 @@
    "data": "grassmann/packings/m11n2N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N96.txt",
    "seconds": 186,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1442,7 +1505,8 @@
    "data": "grassmann/packings/m11n2N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N97.txt",
    "seconds": 187,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1465,7 +1529,8 @@
    "data": "grassmann/packings/m11n2N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N98.txt",
    "seconds": 191,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1488,7 +1553,8 @@
    "data": "grassmann/packings/m11n2N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N99.txt",
    "seconds": 193,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1511,7 +1577,8 @@
    "data": "grassmann/packings/m11n2N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n2N100.txt",
    "seconds": 194,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1534,7 +1601,8 @@
    "data": "grassmann/packings/m11n3N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N84.txt",
    "seconds": 176,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1557,7 +1625,8 @@
    "data": "grassmann/packings/m11n3N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N85.txt",
    "seconds": 179,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1580,7 +1649,8 @@
    "data": "grassmann/packings/m11n3N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N86.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1603,7 +1673,8 @@
    "data": "grassmann/packings/m11n3N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N87.txt",
    "seconds": 184,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1626,7 +1697,8 @@
    "data": "grassmann/packings/m11n3N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N88.txt",
    "seconds": 165,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1649,7 +1721,8 @@
    "data": "grassmann/packings/m11n3N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N89.txt",
    "seconds": 154,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1672,7 +1745,8 @@
    "data": "grassmann/packings/m11n3N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N90.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1695,7 +1769,8 @@
    "data": "grassmann/packings/m11n3N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N91.txt",
    "seconds": 161,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1718,7 +1793,8 @@
    "data": "grassmann/packings/m11n3N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N92.txt",
    "seconds": 166,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1741,7 +1817,8 @@
    "data": "grassmann/packings/m11n3N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N93.txt",
    "seconds": 168,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1764,7 +1841,8 @@
    "data": "grassmann/packings/m11n3N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N94.txt",
    "seconds": 171,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1787,7 +1865,8 @@
    "data": "grassmann/packings/m11n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N95.txt",
    "seconds": 173,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1810,7 +1889,8 @@
    "data": "grassmann/packings/m11n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N96.txt",
    "seconds": 177,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1833,7 +1913,8 @@
    "data": "grassmann/packings/m11n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N97.txt",
    "seconds": 179,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1856,7 +1937,8 @@
    "data": "grassmann/packings/m11n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N98.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1879,7 +1961,8 @@
    "data": "grassmann/packings/m11n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N99.txt",
    "seconds": 168,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1902,7 +1985,8 @@
    "data": "grassmann/packings/m11n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n3N100.txt",
    "seconds": 174,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1925,7 +2009,8 @@
    "data": "grassmann/packings/m11n4N5.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N5.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1948,7 +2033,8 @@
    "data": "grassmann/packings/m11n4N6.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N6.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1971,7 +2057,8 @@
    "data": "grassmann/packings/m11n4N7.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N7.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -1994,7 +2081,8 @@
    "data": "grassmann/packings/m11n4N8.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N8.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2017,7 +2105,8 @@
    "data": "grassmann/packings/m11n4N9.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N9.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2040,7 +2129,8 @@
    "data": "grassmann/packings/m11n4N10.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N10.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2063,7 +2153,8 @@
    "data": "grassmann/packings/m11n4N11.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N11.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2086,7 +2177,8 @@
    "data": "grassmann/packings/m11n4N12.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N12.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2109,7 +2201,8 @@
    "data": "grassmann/packings/m11n4N13.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N13.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2132,7 +2225,8 @@
    "data": "grassmann/packings/m11n4N14.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N14.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2155,7 +2249,8 @@
    "data": "grassmann/packings/m11n4N15.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N15.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2178,7 +2273,8 @@
    "data": "grassmann/packings/m11n4N16.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N16.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2201,7 +2297,8 @@
    "data": "grassmann/packings/m11n4N17.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N17.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2224,7 +2321,8 @@
    "data": "grassmann/packings/m11n4N18.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N18.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2247,7 +2345,8 @@
    "data": "grassmann/packings/m11n4N19.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N19.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2270,7 +2369,8 @@
    "data": "grassmann/packings/m11n4N20.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N20.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2293,7 +2393,8 @@
    "data": "grassmann/packings/m11n4N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N83.txt",
    "seconds": 173,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2316,7 +2417,8 @@
    "data": "grassmann/packings/m11n4N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N84.txt",
    "seconds": 178,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2339,7 +2441,8 @@
    "data": "grassmann/packings/m11n4N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N85.txt",
    "seconds": 181,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2362,7 +2465,8 @@
    "data": "grassmann/packings/m11n4N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N86.txt",
    "seconds": 185,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2385,7 +2489,8 @@
    "data": "grassmann/packings/m11n4N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N87.txt",
    "seconds": 190,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2408,7 +2513,8 @@
    "data": "grassmann/packings/m11n4N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N88.txt",
    "seconds": 193,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2431,7 +2537,8 @@
    "data": "grassmann/packings/m11n4N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N89.txt",
    "seconds": 198,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2454,7 +2561,8 @@
    "data": "grassmann/packings/m11n4N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N90.txt",
    "seconds": 201,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2477,7 +2585,8 @@
    "data": "grassmann/packings/m11n4N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N91.txt",
    "seconds": 206,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2500,7 +2609,8 @@
    "data": "grassmann/packings/m11n4N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N92.txt",
    "seconds": 211,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2523,7 +2633,8 @@
    "data": "grassmann/packings/m11n4N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N93.txt",
    "seconds": 215,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2546,7 +2657,8 @@
    "data": "grassmann/packings/m11n4N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N94.txt",
    "seconds": 219,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2569,7 +2681,8 @@
    "data": "grassmann/packings/m11n4N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N95.txt",
    "seconds": 224,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2592,7 +2705,8 @@
    "data": "grassmann/packings/m11n4N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N96.txt",
    "seconds": 229,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2615,7 +2729,8 @@
    "data": "grassmann/packings/m11n4N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N97.txt",
    "seconds": 233,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2638,7 +2753,8 @@
    "data": "grassmann/packings/m11n4N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N98.txt",
    "seconds": 239,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2661,7 +2777,8 @@
    "data": "grassmann/packings/m11n4N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N99.txt",
    "seconds": 242,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2684,7 +2801,8 @@
    "data": "grassmann/packings/m11n4N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m11n4N100.txt",
    "seconds": 248,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2707,7 +2825,8 @@
    "data": "grassmann/packings/m12n1N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N95.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2730,7 +2849,8 @@
    "data": "grassmann/packings/m12n1N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N96.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2753,7 +2873,8 @@
    "data": "grassmann/packings/m12n1N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N97.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2776,7 +2897,8 @@
    "data": "grassmann/packings/m12n1N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N98.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2799,7 +2921,8 @@
    "data": "grassmann/packings/m12n1N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N99.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2822,7 +2945,8 @@
    "data": "grassmann/packings/m12n1N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N100.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2845,7 +2969,8 @@
    "data": "grassmann/packings/m12n2N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N95.txt",
    "seconds": 154,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2868,7 +2993,8 @@
    "data": "grassmann/packings/m12n2N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N96.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2891,7 +3017,8 @@
    "data": "grassmann/packings/m12n2N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N97.txt",
    "seconds": 161,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2914,7 +3041,8 @@
    "data": "grassmann/packings/m12n2N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N98.txt",
    "seconds": 164,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2937,7 +3065,8 @@
    "data": "grassmann/packings/m12n2N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N99.txt",
    "seconds": 188,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2960,7 +3089,8 @@
    "data": "grassmann/packings/m12n2N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n2N100.txt",
    "seconds": 191,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -2983,7 +3113,8 @@
    "data": "grassmann/packings/m12n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N95.txt",
    "seconds": 180,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3006,7 +3137,8 @@
    "data": "grassmann/packings/m12n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N96.txt",
    "seconds": 183,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3029,7 +3161,8 @@
    "data": "grassmann/packings/m12n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N97.txt",
    "seconds": 187,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3052,7 +3185,8 @@
    "data": "grassmann/packings/m12n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N98.txt",
    "seconds": 190,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3075,7 +3209,8 @@
    "data": "grassmann/packings/m12n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N99.txt",
    "seconds": 194,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3098,7 +3233,8 @@
    "data": "grassmann/packings/m12n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n3N100.txt",
    "seconds": 196,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3121,7 +3257,8 @@
    "data": "grassmann/packings/m12n4N5.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N5.txt",
    "seconds": 60,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3144,7 +3281,8 @@
    "data": "grassmann/packings/m12n4N6.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N6.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3167,7 +3305,8 @@
    "data": "grassmann/packings/m12n4N7.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N7.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3190,7 +3329,8 @@
    "data": "grassmann/packings/m12n4N8.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N8.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3213,7 +3353,8 @@
    "data": "grassmann/packings/m12n4N9.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N9.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3236,7 +3377,8 @@
    "data": "grassmann/packings/m12n4N10.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N10.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3259,7 +3401,8 @@
    "data": "grassmann/packings/m12n4N11.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N11.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3282,7 +3425,8 @@
    "data": "grassmann/packings/m12n4N12.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N12.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3305,7 +3449,8 @@
    "data": "grassmann/packings/m12n4N13.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N13.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3328,7 +3473,8 @@
    "data": "grassmann/packings/m12n4N14.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N14.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3351,7 +3497,8 @@
    "data": "grassmann/packings/m12n4N15.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N15.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3374,7 +3521,8 @@
    "data": "grassmann/packings/m12n4N16.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N16.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3397,7 +3545,8 @@
    "data": "grassmann/packings/m12n4N17.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N17.txt",
    "seconds": 66,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3420,7 +3569,8 @@
    "data": "grassmann/packings/m12n4N18.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N18.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3443,7 +3593,8 @@
    "data": "grassmann/packings/m12n4N19.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N19.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3466,7 +3617,8 @@
    "data": "grassmann/packings/m12n4N20.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N20.txt",
    "seconds": 67,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3489,7 +3641,8 @@
    "data": "grassmann/packings/m12n4N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N94.txt",
    "seconds": 237,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3512,7 +3665,8 @@
    "data": "grassmann/packings/m12n4N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N95.txt",
    "seconds": 244,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3535,7 +3689,8 @@
    "data": "grassmann/packings/m12n4N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N96.txt",
    "seconds": 247,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3558,7 +3713,8 @@
    "data": "grassmann/packings/m12n4N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N97.txt",
    "seconds": 254,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3581,7 +3737,8 @@
    "data": "grassmann/packings/m12n4N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N98.txt",
    "seconds": 258,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3604,7 +3761,8 @@
    "data": "grassmann/packings/m12n4N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N99.txt",
    "seconds": 264,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3627,7 +3785,8 @@
    "data": "grassmann/packings/m12n4N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n4N100.txt",
    "seconds": 268,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3650,7 +3809,8 @@
    "data": "grassmann/packings/m13n1N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N55.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3673,7 +3833,8 @@
    "data": "grassmann/packings/m13n1N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N56.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3696,7 +3857,8 @@
    "data": "grassmann/packings/m13n1N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N57.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3719,7 +3881,8 @@
    "data": "grassmann/packings/m13n1N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N58.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3742,7 +3905,8 @@
    "data": "grassmann/packings/m13n1N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N59.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3765,7 +3929,8 @@
    "data": "grassmann/packings/m13n1N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N60.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3788,7 +3953,8 @@
    "data": "grassmann/packings/m13n1N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N61.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3811,7 +3977,8 @@
    "data": "grassmann/packings/m13n1N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N62.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3834,7 +4001,8 @@
    "data": "grassmann/packings/m13n1N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N63.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3857,7 +4025,8 @@
    "data": "grassmann/packings/m13n1N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N64.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3880,7 +4049,8 @@
    "data": "grassmann/packings/m13n1N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N65.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3903,7 +4073,8 @@
    "data": "grassmann/packings/m13n1N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N66.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3926,7 +4097,8 @@
    "data": "grassmann/packings/m13n1N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N67.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3949,7 +4121,8 @@
    "data": "grassmann/packings/m13n1N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N68.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3972,7 +4145,8 @@
    "data": "grassmann/packings/m13n1N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N69.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -3995,7 +4169,8 @@
    "data": "grassmann/packings/m13n1N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N70.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4018,7 +4193,8 @@
    "data": "grassmann/packings/m13n1N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N71.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4041,7 +4217,8 @@
    "data": "grassmann/packings/m13n1N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N72.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4064,7 +4241,8 @@
    "data": "grassmann/packings/m13n1N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N73.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4087,7 +4265,8 @@
    "data": "grassmann/packings/m13n1N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N74.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4110,7 +4289,8 @@
    "data": "grassmann/packings/m13n1N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N75.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4133,7 +4313,8 @@
    "data": "grassmann/packings/m13n1N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N76.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4156,7 +4337,8 @@
    "data": "grassmann/packings/m13n1N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N77.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4179,7 +4361,8 @@
    "data": "grassmann/packings/m13n1N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N78.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4202,7 +4385,8 @@
    "data": "grassmann/packings/m13n1N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N79.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4225,7 +4409,8 @@
    "data": "grassmann/packings/m13n1N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N80.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4248,7 +4433,8 @@
    "data": "grassmann/packings/m13n1N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N81.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4271,7 +4457,8 @@
    "data": "grassmann/packings/m13n1N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N82.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4294,7 +4481,8 @@
    "data": "grassmann/packings/m13n1N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N83.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4317,7 +4505,8 @@
    "data": "grassmann/packings/m13n1N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N84.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4340,7 +4529,8 @@
    "data": "grassmann/packings/m13n1N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N85.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4363,7 +4553,8 @@
    "data": "grassmann/packings/m13n1N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N86.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4386,7 +4577,8 @@
    "data": "grassmann/packings/m13n1N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N87.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4409,7 +4601,8 @@
    "data": "grassmann/packings/m13n1N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N88.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4432,7 +4625,8 @@
    "data": "grassmann/packings/m13n1N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N89.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4455,7 +4649,8 @@
    "data": "grassmann/packings/m13n1N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N92.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4478,7 +4673,8 @@
    "data": "grassmann/packings/m13n1N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N93.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4501,7 +4697,8 @@
    "data": "grassmann/packings/m13n1N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N94.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4524,7 +4721,8 @@
    "data": "grassmann/packings/m13n1N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N95.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4547,7 +4745,8 @@
    "data": "grassmann/packings/m13n1N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N96.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4570,7 +4769,8 @@
    "data": "grassmann/packings/m13n1N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N97.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4593,7 +4793,8 @@
    "data": "grassmann/packings/m13n1N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N98.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4616,7 +4817,8 @@
    "data": "grassmann/packings/m13n1N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N99.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4639,7 +4841,8 @@
    "data": "grassmann/packings/m13n1N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n1N100.txt",
    "seconds": 86,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4662,7 +4865,8 @@
    "data": "grassmann/packings/m13n2N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N51.txt",
    "seconds": 99,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4685,7 +4889,8 @@
    "data": "grassmann/packings/m13n2N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N53.txt",
    "seconds": 110,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4708,7 +4913,8 @@
    "data": "grassmann/packings/m13n2N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N54.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4731,7 +4937,8 @@
    "data": "grassmann/packings/m13n2N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N55.txt",
    "seconds": 95,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4754,7 +4961,8 @@
    "data": "grassmann/packings/m13n2N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N56.txt",
    "seconds": 98,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4777,7 +4985,8 @@
    "data": "grassmann/packings/m13n2N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N57.txt",
    "seconds": 102,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4800,7 +5009,8 @@
    "data": "grassmann/packings/m13n2N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N58.txt",
    "seconds": 105,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4823,7 +5033,8 @@
    "data": "grassmann/packings/m13n2N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N59.txt",
    "seconds": 107,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4846,7 +5057,8 @@
    "data": "grassmann/packings/m13n2N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N60.txt",
    "seconds": 110,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4869,7 +5081,8 @@
    "data": "grassmann/packings/m13n2N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N61.txt",
    "seconds": 111,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4892,7 +5105,8 @@
    "data": "grassmann/packings/m13n2N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N62.txt",
    "seconds": 114,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4915,7 +5129,8 @@
    "data": "grassmann/packings/m13n2N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N63.txt",
    "seconds": 102,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4938,7 +5153,8 @@
    "data": "grassmann/packings/m13n2N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N64.txt",
    "seconds": 125,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4961,7 +5177,8 @@
    "data": "grassmann/packings/m13n2N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N65.txt",
    "seconds": 129,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -4984,7 +5201,8 @@
    "data": "grassmann/packings/m13n2N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N66.txt",
    "seconds": 133,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5007,7 +5225,8 @@
    "data": "grassmann/packings/m13n2N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N67.txt",
    "seconds": 138,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5030,7 +5249,8 @@
    "data": "grassmann/packings/m13n2N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N68.txt",
    "seconds": 144,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5053,7 +5273,8 @@
    "data": "grassmann/packings/m13n2N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N69.txt",
    "seconds": 148,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5076,7 +5297,8 @@
    "data": "grassmann/packings/m13n2N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N70.txt",
    "seconds": 153,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5099,7 +5321,8 @@
    "data": "grassmann/packings/m13n2N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N71.txt",
    "seconds": 114,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5122,7 +5345,8 @@
    "data": "grassmann/packings/m13n2N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N72.txt",
    "seconds": 117,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5145,7 +5369,8 @@
    "data": "grassmann/packings/m13n2N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N73.txt",
    "seconds": 121,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5168,7 +5393,8 @@
    "data": "grassmann/packings/m13n2N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N74.txt",
    "seconds": 129,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5191,7 +5417,8 @@
    "data": "grassmann/packings/m13n2N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N75.txt",
    "seconds": 132,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5214,7 +5441,8 @@
    "data": "grassmann/packings/m13n2N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N76.txt",
    "seconds": 136,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5237,7 +5465,8 @@
    "data": "grassmann/packings/m13n2N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N77.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5260,7 +5489,8 @@
    "data": "grassmann/packings/m13n2N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N78.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5283,7 +5513,8 @@
    "data": "grassmann/packings/m13n2N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N79.txt",
    "seconds": 143,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5306,7 +5537,8 @@
    "data": "grassmann/packings/m13n2N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N80.txt",
    "seconds": 147,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5329,7 +5561,8 @@
    "data": "grassmann/packings/m13n2N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N81.txt",
    "seconds": 147,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5352,7 +5585,8 @@
    "data": "grassmann/packings/m13n2N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N82.txt",
    "seconds": 147,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5375,7 +5609,8 @@
    "data": "grassmann/packings/m13n2N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N83.txt",
    "seconds": 147,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5398,7 +5633,8 @@
    "data": "grassmann/packings/m13n2N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N84.txt",
    "seconds": 148,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5421,7 +5657,8 @@
    "data": "grassmann/packings/m13n2N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N85.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5444,7 +5681,8 @@
    "data": "grassmann/packings/m13n2N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N86.txt",
    "seconds": 169,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5467,7 +5705,8 @@
    "data": "grassmann/packings/m13n2N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N87.txt",
    "seconds": 173,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5490,7 +5729,8 @@
    "data": "grassmann/packings/m13n2N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N88.txt",
    "seconds": 179,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5513,7 +5753,8 @@
    "data": "grassmann/packings/m13n2N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N92.txt",
    "seconds": 197,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5536,7 +5777,8 @@
    "data": "grassmann/packings/m13n2N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N93.txt",
    "seconds": 200,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5559,7 +5801,8 @@
    "data": "grassmann/packings/m13n2N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N94.txt",
    "seconds": 205,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5582,7 +5825,8 @@
    "data": "grassmann/packings/m13n2N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N95.txt",
    "seconds": 210,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5605,7 +5849,8 @@
    "data": "grassmann/packings/m13n2N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N96.txt",
    "seconds": 215,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5628,7 +5873,8 @@
    "data": "grassmann/packings/m13n2N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N97.txt",
    "seconds": 221,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5651,7 +5897,8 @@
    "data": "grassmann/packings/m13n2N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N98.txt",
    "seconds": 226,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5674,7 +5921,8 @@
    "data": "grassmann/packings/m13n2N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N99.txt",
    "seconds": 230,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5697,7 +5945,8 @@
    "data": "grassmann/packings/m13n2N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n2N100.txt",
    "seconds": 234,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5720,7 +5969,8 @@
    "data": "grassmann/packings/m13n3N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N51.txt",
    "seconds": 101,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5743,7 +5993,8 @@
    "data": "grassmann/packings/m13n3N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N53.txt",
    "seconds": 109,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5766,7 +6017,8 @@
    "data": "grassmann/packings/m13n3N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N54.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5789,7 +6041,8 @@
    "data": "grassmann/packings/m13n3N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N55.txt",
    "seconds": 97,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5812,7 +6065,8 @@
    "data": "grassmann/packings/m13n3N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N56.txt",
    "seconds": 100,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5835,7 +6089,8 @@
    "data": "grassmann/packings/m13n3N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N57.txt",
    "seconds": 103,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5858,7 +6113,8 @@
    "data": "grassmann/packings/m13n3N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N58.txt",
    "seconds": 107,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5881,7 +6137,8 @@
    "data": "grassmann/packings/m13n3N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N59.txt",
    "seconds": 110,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5904,7 +6161,8 @@
    "data": "grassmann/packings/m13n3N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N60.txt",
    "seconds": 113,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5927,7 +6185,8 @@
    "data": "grassmann/packings/m13n3N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N61.txt",
    "seconds": 114,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5950,7 +6209,8 @@
    "data": "grassmann/packings/m13n3N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N62.txt",
    "seconds": 118,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5973,7 +6233,8 @@
    "data": "grassmann/packings/m13n3N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N63.txt",
    "seconds": 121,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -5996,7 +6257,8 @@
    "data": "grassmann/packings/m13n3N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N64.txt",
    "seconds": 125,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6019,7 +6281,8 @@
    "data": "grassmann/packings/m13n3N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N66.txt",
    "seconds": 134,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6042,7 +6305,8 @@
    "data": "grassmann/packings/m13n3N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N67.txt",
    "seconds": 137,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6065,7 +6329,8 @@
    "data": "grassmann/packings/m13n3N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N68.txt",
    "seconds": 140,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6088,7 +6353,8 @@
    "data": "grassmann/packings/m13n3N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N69.txt",
    "seconds": 146,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6111,7 +6377,8 @@
    "data": "grassmann/packings/m13n3N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N70.txt",
    "seconds": 118,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6134,7 +6401,8 @@
    "data": "grassmann/packings/m13n3N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N71.txt",
    "seconds": 121,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6157,7 +6425,8 @@
    "data": "grassmann/packings/m13n3N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N72.txt",
    "seconds": 125,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6180,7 +6449,8 @@
    "data": "grassmann/packings/m13n3N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N73.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6203,7 +6473,8 @@
    "data": "grassmann/packings/m13n3N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N74.txt",
    "seconds": 132,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6226,7 +6497,8 @@
    "data": "grassmann/packings/m13n3N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N75.txt",
    "seconds": 134,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6249,7 +6521,8 @@
    "data": "grassmann/packings/m13n3N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N76.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6272,7 +6545,8 @@
    "data": "grassmann/packings/m13n3N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N77.txt",
    "seconds": 146,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6295,7 +6569,8 @@
    "data": "grassmann/packings/m13n3N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N78.txt",
    "seconds": 149,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6318,7 +6593,8 @@
    "data": "grassmann/packings/m13n3N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N79.txt",
    "seconds": 151,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6341,7 +6617,8 @@
    "data": "grassmann/packings/m13n3N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N80.txt",
    "seconds": 154,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6364,7 +6641,8 @@
    "data": "grassmann/packings/m13n3N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N81.txt",
    "seconds": 155,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6387,7 +6665,8 @@
    "data": "grassmann/packings/m13n3N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N82.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6410,7 +6689,8 @@
    "data": "grassmann/packings/m13n3N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N83.txt",
    "seconds": 159,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6433,7 +6713,8 @@
    "data": "grassmann/packings/m13n3N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N84.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6456,7 +6737,8 @@
    "data": "grassmann/packings/m13n3N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N85.txt",
    "seconds": 161,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6479,7 +6761,8 @@
    "data": "grassmann/packings/m13n3N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N86.txt",
    "seconds": 162,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6502,7 +6785,8 @@
    "data": "grassmann/packings/m13n3N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N87.txt",
    "seconds": 163,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6525,7 +6809,8 @@
    "data": "grassmann/packings/m13n3N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N88.txt",
    "seconds": 196,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6548,7 +6833,8 @@
    "data": "grassmann/packings/m13n3N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N92.txt",
    "seconds": 208,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6571,7 +6857,8 @@
    "data": "grassmann/packings/m13n3N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N93.txt",
    "seconds": 212,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6594,7 +6881,8 @@
    "data": "grassmann/packings/m13n3N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N94.txt",
    "seconds": 168,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6617,7 +6905,8 @@
    "data": "grassmann/packings/m13n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N95.txt",
    "seconds": 171,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6640,7 +6929,8 @@
    "data": "grassmann/packings/m13n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N96.txt",
    "seconds": 175,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6663,7 +6953,8 @@
    "data": "grassmann/packings/m13n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N97.txt",
    "seconds": 178,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6686,7 +6977,8 @@
    "data": "grassmann/packings/m13n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N98.txt",
    "seconds": 180,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6709,7 +7001,8 @@
    "data": "grassmann/packings/m13n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N99.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6732,7 +7025,8 @@
    "data": "grassmann/packings/m13n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n3N100.txt",
    "seconds": 195,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6755,7 +7049,8 @@
    "data": "grassmann/packings/m13n4N5.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N5.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6778,7 +7073,8 @@
    "data": "grassmann/packings/m13n4N6.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N6.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6801,7 +7097,8 @@
    "data": "grassmann/packings/m13n4N7.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N7.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6824,7 +7121,8 @@
    "data": "grassmann/packings/m13n4N8.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N8.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6847,7 +7145,8 @@
    "data": "grassmann/packings/m13n4N9.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N9.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6870,7 +7169,8 @@
    "data": "grassmann/packings/m13n4N10.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N10.txt",
    "seconds": 61,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6893,7 +7193,8 @@
    "data": "grassmann/packings/m13n4N11.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N11.txt",
    "seconds": 62,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6916,7 +7217,8 @@
    "data": "grassmann/packings/m13n4N12.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N12.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6939,7 +7241,8 @@
    "data": "grassmann/packings/m13n4N13.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N13.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6962,7 +7265,8 @@
    "data": "grassmann/packings/m13n4N14.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N14.txt",
    "seconds": 63,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -6985,7 +7289,8 @@
    "data": "grassmann/packings/m13n4N15.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N15.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7008,7 +7313,8 @@
    "data": "grassmann/packings/m13n4N16.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N16.txt",
    "seconds": 64,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7031,7 +7337,8 @@
    "data": "grassmann/packings/m13n4N17.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N17.txt",
    "seconds": 65,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7054,7 +7361,8 @@
    "data": "grassmann/packings/m13n4N18.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N18.txt",
    "seconds": 66,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7077,7 +7385,8 @@
    "data": "grassmann/packings/m13n4N19.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N19.txt",
    "seconds": 66,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7100,7 +7409,8 @@
    "data": "grassmann/packings/m13n4N20.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N20.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7123,7 +7433,8 @@
    "data": "grassmann/packings/m13n4N21.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N21.txt",
    "seconds": 67,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7146,7 +7457,8 @@
    "data": "grassmann/packings/m13n4N22.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N22.txt",
    "seconds": 67,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7169,7 +7481,8 @@
    "data": "grassmann/packings/m13n4N23.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N23.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7192,7 +7505,8 @@
    "data": "grassmann/packings/m13n4N24.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N24.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7215,7 +7529,8 @@
    "data": "grassmann/packings/m13n4N25.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N25.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7238,7 +7553,8 @@
    "data": "grassmann/packings/m13n4N26.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N26.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7261,7 +7577,8 @@
    "data": "grassmann/packings/m13n4N27.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N27.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7284,7 +7601,8 @@
    "data": "grassmann/packings/m13n4N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N92.txt",
    "seconds": 246,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7307,7 +7625,8 @@
    "data": "grassmann/packings/m13n4N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N93.txt",
    "seconds": 251,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7330,7 +7649,8 @@
    "data": "grassmann/packings/m13n4N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N94.txt",
    "seconds": 255,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7353,7 +7673,8 @@
    "data": "grassmann/packings/m13n4N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N95.txt",
    "seconds": 261,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7376,7 +7697,8 @@
    "data": "grassmann/packings/m13n4N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N96.txt",
    "seconds": 267,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7399,7 +7721,8 @@
    "data": "grassmann/packings/m13n4N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N97.txt",
    "seconds": 273,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7422,7 +7745,8 @@
    "data": "grassmann/packings/m13n4N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N98.txt",
    "seconds": 278,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7445,7 +7769,8 @@
    "data": "grassmann/packings/m13n4N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N99.txt",
    "seconds": 208,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7468,7 +7793,8 @@
    "data": "grassmann/packings/m13n4N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m13n4N100.txt",
    "seconds": 210,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7491,7 +7817,8 @@
    "data": "grassmann/packings/m14n1N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N56.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7514,7 +7841,8 @@
    "data": "grassmann/packings/m14n1N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N57.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7537,7 +7865,8 @@
    "data": "grassmann/packings/m14n1N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N58.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7560,7 +7889,8 @@
    "data": "grassmann/packings/m14n1N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N59.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7583,7 +7913,8 @@
    "data": "grassmann/packings/m14n1N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N60.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7606,7 +7937,8 @@
    "data": "grassmann/packings/m14n1N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N66.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7629,7 +7961,8 @@
    "data": "grassmann/packings/m14n1N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N67.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7652,7 +7985,8 @@
    "data": "grassmann/packings/m14n1N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N68.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7675,7 +8009,8 @@
    "data": "grassmann/packings/m14n1N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N69.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7698,7 +8033,8 @@
    "data": "grassmann/packings/m14n1N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N70.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7721,7 +8057,8 @@
    "data": "grassmann/packings/m14n1N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N71.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7744,7 +8081,8 @@
    "data": "grassmann/packings/m14n1N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N72.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7767,7 +8105,8 @@
    "data": "grassmann/packings/m14n1N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N73.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7790,7 +8129,8 @@
    "data": "grassmann/packings/m14n1N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N74.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7813,7 +8153,8 @@
    "data": "grassmann/packings/m14n1N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N75.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7836,7 +8177,8 @@
    "data": "grassmann/packings/m14n1N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N76.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7859,7 +8201,8 @@
    "data": "grassmann/packings/m14n1N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N77.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7882,7 +8225,8 @@
    "data": "grassmann/packings/m14n1N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N78.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7905,7 +8249,8 @@
    "data": "grassmann/packings/m14n1N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N79.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7928,7 +8273,8 @@
    "data": "grassmann/packings/m14n1N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N80.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7951,7 +8297,8 @@
    "data": "grassmann/packings/m14n1N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N81.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7974,7 +8321,8 @@
    "data": "grassmann/packings/m14n1N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N82.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -7997,7 +8345,8 @@
    "data": "grassmann/packings/m14n1N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N83.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8020,7 +8369,8 @@
    "data": "grassmann/packings/m14n1N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N84.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8043,7 +8393,8 @@
    "data": "grassmann/packings/m14n1N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N85.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8066,7 +8417,8 @@
    "data": "grassmann/packings/m14n1N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N86.txt",
    "seconds": 81,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8089,7 +8441,8 @@
    "data": "grassmann/packings/m14n1N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N87.txt",
    "seconds": 81,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8112,7 +8465,8 @@
    "data": "grassmann/packings/m14n1N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N88.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8135,7 +8489,8 @@
    "data": "grassmann/packings/m14n1N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N89.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8158,7 +8513,8 @@
    "data": "grassmann/packings/m14n1N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N90.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8181,7 +8537,8 @@
    "data": "grassmann/packings/m14n1N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N91.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8204,7 +8561,8 @@
    "data": "grassmann/packings/m14n1N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N92.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8227,7 +8585,8 @@
    "data": "grassmann/packings/m14n1N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N93.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8250,7 +8609,8 @@
    "data": "grassmann/packings/m14n1N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N94.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8273,7 +8633,8 @@
    "data": "grassmann/packings/m14n1N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N95.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8296,7 +8657,8 @@
    "data": "grassmann/packings/m14n1N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N96.txt",
    "seconds": 86,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8319,7 +8681,8 @@
    "data": "grassmann/packings/m14n1N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N97.txt",
    "seconds": 86,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8342,7 +8705,8 @@
    "data": "grassmann/packings/m14n1N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N98.txt",
    "seconds": 88,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8365,7 +8729,8 @@
    "data": "grassmann/packings/m14n1N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N99.txt",
    "seconds": 87,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8388,7 +8753,8 @@
    "data": "grassmann/packings/m14n1N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N100.txt",
    "seconds": 88,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8411,7 +8777,8 @@
    "data": "grassmann/packings/m14n2N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N51.txt",
    "seconds": 90,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8434,7 +8801,8 @@
    "data": "grassmann/packings/m14n2N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N52.txt",
    "seconds": 93,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8457,7 +8825,8 @@
    "data": "grassmann/packings/m14n2N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N53.txt",
    "seconds": 97,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8480,7 +8849,8 @@
    "data": "grassmann/packings/m14n2N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N54.txt",
    "seconds": 100,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8503,7 +8873,8 @@
    "data": "grassmann/packings/m14n2N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N55.txt",
    "seconds": 104,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8526,7 +8897,8 @@
    "data": "grassmann/packings/m14n2N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N57.txt",
    "seconds": 111,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8549,7 +8921,8 @@
    "data": "grassmann/packings/m14n2N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N58.txt",
    "seconds": 116,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8572,7 +8945,8 @@
    "data": "grassmann/packings/m14n2N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N59.txt",
    "seconds": 121,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8595,7 +8969,8 @@
    "data": "grassmann/packings/m14n2N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N60.txt",
    "seconds": 124,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8618,7 +8993,8 @@
    "data": "grassmann/packings/m14n2N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N61.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8641,7 +9017,8 @@
    "data": "grassmann/packings/m14n2N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N62.txt",
    "seconds": 132,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8664,7 +9041,8 @@
    "data": "grassmann/packings/m14n2N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N63.txt",
    "seconds": 135,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8687,7 +9065,8 @@
    "data": "grassmann/packings/m14n2N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N64.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8710,7 +9089,8 @@
    "data": "grassmann/packings/m14n2N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N65.txt",
    "seconds": 143,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8733,7 +9113,8 @@
    "data": "grassmann/packings/m14n2N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N66.txt",
    "seconds": 146,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8756,7 +9137,8 @@
    "data": "grassmann/packings/m14n2N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N67.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8779,7 +9161,8 @@
    "data": "grassmann/packings/m14n2N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N68.txt",
    "seconds": 113,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8802,7 +9185,8 @@
    "data": "grassmann/packings/m14n2N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N69.txt",
    "seconds": 116,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8825,7 +9209,8 @@
    "data": "grassmann/packings/m14n2N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N70.txt",
    "seconds": 119,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8848,7 +9233,8 @@
    "data": "grassmann/packings/m14n2N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N71.txt",
    "seconds": 122,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8871,7 +9257,8 @@
    "data": "grassmann/packings/m14n2N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N72.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8894,7 +9281,8 @@
    "data": "grassmann/packings/m14n2N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N73.txt",
    "seconds": 132,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8917,7 +9305,8 @@
    "data": "grassmann/packings/m14n2N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N74.txt",
    "seconds": 135,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8940,7 +9329,8 @@
    "data": "grassmann/packings/m14n2N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N75.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8963,7 +9353,8 @@
    "data": "grassmann/packings/m14n2N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N76.txt",
    "seconds": 143,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -8986,7 +9377,8 @@
    "data": "grassmann/packings/m14n2N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N77.txt",
    "seconds": 147,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9009,7 +9401,8 @@
    "data": "grassmann/packings/m14n2N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N78.txt",
    "seconds": 150,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9032,7 +9425,8 @@
    "data": "grassmann/packings/m14n2N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N79.txt",
    "seconds": 154,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9055,7 +9449,8 @@
    "data": "grassmann/packings/m14n2N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N80.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9078,7 +9473,8 @@
    "data": "grassmann/packings/m14n2N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N81.txt",
    "seconds": 162,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9101,7 +9497,8 @@
    "data": "grassmann/packings/m14n2N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N82.txt",
    "seconds": 166,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9124,7 +9521,8 @@
    "data": "grassmann/packings/m14n2N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N83.txt",
    "seconds": 171,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9147,7 +9545,8 @@
    "data": "grassmann/packings/m14n2N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N84.txt",
    "seconds": 174,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9170,7 +9569,8 @@
    "data": "grassmann/packings/m14n2N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N85.txt",
    "seconds": 178,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9193,7 +9593,8 @@
    "data": "grassmann/packings/m14n2N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N86.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9216,7 +9617,8 @@
    "data": "grassmann/packings/m14n2N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N87.txt",
    "seconds": 186,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9239,7 +9641,8 @@
    "data": "grassmann/packings/m14n2N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N88.txt",
    "seconds": 191,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9262,7 +9665,8 @@
    "data": "grassmann/packings/m14n2N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N89.txt",
    "seconds": 194,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9285,7 +9689,8 @@
    "data": "grassmann/packings/m14n2N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N90.txt",
    "seconds": 199,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9308,7 +9713,8 @@
    "data": "grassmann/packings/m14n2N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N91.txt",
    "seconds": 203,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9331,7 +9737,8 @@
    "data": "grassmann/packings/m14n2N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N92.txt",
    "seconds": 208,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9354,7 +9761,8 @@
    "data": "grassmann/packings/m14n2N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N93.txt",
    "seconds": 213,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9377,7 +9785,8 @@
    "data": "grassmann/packings/m14n2N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N94.txt",
    "seconds": 215,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9400,7 +9809,8 @@
    "data": "grassmann/packings/m14n2N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N95.txt",
    "seconds": 218,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9423,7 +9833,8 @@
    "data": "grassmann/packings/m14n2N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N96.txt",
    "seconds": 222,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9446,7 +9857,8 @@
    "data": "grassmann/packings/m14n2N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N97.txt",
    "seconds": 222,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9469,7 +9881,8 @@
    "data": "grassmann/packings/m14n2N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N98.txt",
    "seconds": 223,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9492,7 +9905,8 @@
    "data": "grassmann/packings/m14n2N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N99.txt",
    "seconds": 229,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9515,7 +9929,8 @@
    "data": "grassmann/packings/m14n2N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n2N100.txt",
    "seconds": 235,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9538,7 +9953,8 @@
    "data": "grassmann/packings/m14n3N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N51.txt",
    "seconds": 107,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9561,7 +9977,8 @@
    "data": "grassmann/packings/m14n3N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N52.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9584,7 +10001,8 @@
    "data": "grassmann/packings/m14n3N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N53.txt",
    "seconds": 96,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9607,7 +10025,8 @@
    "data": "grassmann/packings/m14n3N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N54.txt",
    "seconds": 97,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9630,7 +10049,8 @@
    "data": "grassmann/packings/m14n3N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N55.txt",
    "seconds": 113,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9653,7 +10073,8 @@
    "data": "grassmann/packings/m14n3N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N57.txt",
    "seconds": 107,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9676,7 +10097,8 @@
    "data": "grassmann/packings/m14n3N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N58.txt",
    "seconds": 111,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9699,7 +10121,8 @@
    "data": "grassmann/packings/m14n3N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N59.txt",
    "seconds": 114,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9722,7 +10145,8 @@
    "data": "grassmann/packings/m14n3N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N60.txt",
    "seconds": 118,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9745,7 +10169,8 @@
    "data": "grassmann/packings/m14n3N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N61.txt",
    "seconds": 123,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9768,7 +10193,8 @@
    "data": "grassmann/packings/m14n3N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N62.txt",
    "seconds": 126,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9791,7 +10217,8 @@
    "data": "grassmann/packings/m14n3N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N63.txt",
    "seconds": 131,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9814,7 +10241,8 @@
    "data": "grassmann/packings/m14n3N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N64.txt",
    "seconds": 135,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9837,7 +10265,8 @@
    "data": "grassmann/packings/m14n3N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N65.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9860,7 +10289,8 @@
    "data": "grassmann/packings/m14n3N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N66.txt",
    "seconds": 145,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9883,7 +10313,8 @@
    "data": "grassmann/packings/m14n3N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N67.txt",
    "seconds": 117,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9906,7 +10337,8 @@
    "data": "grassmann/packings/m14n3N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N68.txt",
    "seconds": 117,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9929,7 +10361,8 @@
    "data": "grassmann/packings/m14n3N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N69.txt",
    "seconds": 120,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9952,7 +10385,8 @@
    "data": "grassmann/packings/m14n3N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N71.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9975,7 +10409,8 @@
    "data": "grassmann/packings/m14n3N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N72.txt",
    "seconds": 131,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -9998,7 +10433,8 @@
    "data": "grassmann/packings/m14n3N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N73.txt",
    "seconds": 136,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10021,7 +10457,8 @@
    "data": "grassmann/packings/m14n3N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N74.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10044,7 +10481,8 @@
    "data": "grassmann/packings/m14n3N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N75.txt",
    "seconds": 142,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10067,7 +10505,8 @@
    "data": "grassmann/packings/m14n3N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N76.txt",
    "seconds": 146,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10090,7 +10529,8 @@
    "data": "grassmann/packings/m14n3N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N77.txt",
    "seconds": 150,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10113,7 +10553,8 @@
    "data": "grassmann/packings/m14n3N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N78.txt",
    "seconds": 157,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10136,7 +10577,8 @@
    "data": "grassmann/packings/m14n3N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N79.txt",
    "seconds": 160,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10159,7 +10601,8 @@
    "data": "grassmann/packings/m14n3N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N80.txt",
    "seconds": 165,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10182,7 +10625,8 @@
    "data": "grassmann/packings/m14n3N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N81.txt",
    "seconds": 170,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10205,7 +10649,8 @@
    "data": "grassmann/packings/m14n3N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N82.txt",
    "seconds": 174,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10228,7 +10673,8 @@
    "data": "grassmann/packings/m14n3N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N83.txt",
    "seconds": 178,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10251,7 +10697,8 @@
    "data": "grassmann/packings/m14n3N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N84.txt",
    "seconds": 182,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10274,7 +10721,8 @@
    "data": "grassmann/packings/m14n3N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N85.txt",
    "seconds": 187,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10297,7 +10745,8 @@
    "data": "grassmann/packings/m14n3N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N86.txt",
    "seconds": 192,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10320,7 +10769,8 @@
    "data": "grassmann/packings/m14n3N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N87.txt",
    "seconds": 195,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10343,7 +10793,8 @@
    "data": "grassmann/packings/m14n3N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N88.txt",
    "seconds": 199,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10366,7 +10817,8 @@
    "data": "grassmann/packings/m14n3N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N89.txt",
    "seconds": 205,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10389,7 +10841,8 @@
    "data": "grassmann/packings/m14n3N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N90.txt",
    "seconds": 209,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10412,7 +10865,8 @@
    "data": "grassmann/packings/m14n3N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N91.txt",
    "seconds": 213,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10435,7 +10889,8 @@
    "data": "grassmann/packings/m14n3N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N92.txt",
    "seconds": 218,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10458,7 +10913,8 @@
    "data": "grassmann/packings/m14n3N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N93.txt",
    "seconds": 222,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10481,7 +10937,8 @@
    "data": "grassmann/packings/m14n3N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N94.txt",
    "seconds": 227,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10504,7 +10961,8 @@
    "data": "grassmann/packings/m14n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N95.txt",
    "seconds": 232,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10527,7 +10985,8 @@
    "data": "grassmann/packings/m14n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N96.txt",
    "seconds": 237,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10550,7 +11009,8 @@
    "data": "grassmann/packings/m14n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N97.txt",
    "seconds": 241,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10573,7 +11033,8 @@
    "data": "grassmann/packings/m14n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N98.txt",
    "seconds": 246,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10596,7 +11057,8 @@
    "data": "grassmann/packings/m14n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N99.txt",
    "seconds": 249,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10619,7 +11081,8 @@
    "data": "grassmann/packings/m14n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n3N100.txt",
    "seconds": 184,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10642,7 +11105,8 @@
    "data": "grassmann/packings/m15n1N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N51.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10665,7 +11129,8 @@
    "data": "grassmann/packings/m15n1N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N52.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10688,7 +11153,8 @@
    "data": "grassmann/packings/m15n1N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N53.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10711,7 +11177,8 @@
    "data": "grassmann/packings/m15n1N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N54.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10734,7 +11201,8 @@
    "data": "grassmann/packings/m15n1N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N55.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10757,7 +11225,8 @@
    "data": "grassmann/packings/m15n1N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N56.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10780,7 +11249,8 @@
    "data": "grassmann/packings/m15n1N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N57.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10803,7 +11273,8 @@
    "data": "grassmann/packings/m15n1N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N58.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10826,7 +11297,8 @@
    "data": "grassmann/packings/m15n1N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N59.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10849,7 +11321,8 @@
    "data": "grassmann/packings/m15n1N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N60.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10872,7 +11345,8 @@
    "data": "grassmann/packings/m15n1N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N61.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10895,7 +11369,8 @@
    "data": "grassmann/packings/m15n1N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N62.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10918,7 +11393,8 @@
    "data": "grassmann/packings/m15n1N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N63.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10941,7 +11417,8 @@
    "data": "grassmann/packings/m15n1N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N64.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10964,7 +11441,8 @@
    "data": "grassmann/packings/m15n1N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N65.txt",
    "seconds": 72,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -10987,7 +11465,8 @@
    "data": "grassmann/packings/m15n1N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N66.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11010,7 +11489,8 @@
    "data": "grassmann/packings/m15n1N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N67.txt",
    "seconds": 73,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11033,7 +11513,8 @@
    "data": "grassmann/packings/m15n1N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N68.txt",
    "seconds": 74,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11056,7 +11537,8 @@
    "data": "grassmann/packings/m15n1N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N69.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11079,7 +11561,8 @@
    "data": "grassmann/packings/m15n1N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N70.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11102,7 +11585,8 @@
    "data": "grassmann/packings/m15n1N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N71.txt",
    "seconds": 75,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11125,7 +11609,8 @@
    "data": "grassmann/packings/m15n1N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N72.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11148,7 +11633,8 @@
    "data": "grassmann/packings/m15n1N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N73.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11171,7 +11657,8 @@
    "data": "grassmann/packings/m15n1N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N74.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11194,7 +11681,8 @@
    "data": "grassmann/packings/m15n1N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N75.txt",
    "seconds": 76,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11217,7 +11705,8 @@
    "data": "grassmann/packings/m15n1N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N76.txt",
    "seconds": 77,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11240,7 +11729,8 @@
    "data": "grassmann/packings/m15n1N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N77.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11263,7 +11753,8 @@
    "data": "grassmann/packings/m15n1N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N78.txt",
    "seconds": 78,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11286,7 +11777,8 @@
    "data": "grassmann/packings/m15n1N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N79.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11309,7 +11801,8 @@
    "data": "grassmann/packings/m15n1N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N80.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11332,7 +11825,8 @@
    "data": "grassmann/packings/m15n1N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N81.txt",
    "seconds": 79,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11355,7 +11849,8 @@
    "data": "grassmann/packings/m15n1N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N82.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11378,7 +11873,8 @@
    "data": "grassmann/packings/m15n1N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N83.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11401,7 +11897,8 @@
    "data": "grassmann/packings/m15n1N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N84.txt",
    "seconds": 80,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11424,7 +11921,8 @@
    "data": "grassmann/packings/m15n1N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N85.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11447,7 +11945,8 @@
    "data": "grassmann/packings/m15n1N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N86.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11470,7 +11969,8 @@
    "data": "grassmann/packings/m15n1N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N87.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11493,7 +11993,8 @@
    "data": "grassmann/packings/m15n1N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N88.txt",
    "seconds": 82,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11516,7 +12017,8 @@
    "data": "grassmann/packings/m15n1N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N89.txt",
    "seconds": 83,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11539,7 +12041,8 @@
    "data": "grassmann/packings/m15n1N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N90.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11562,7 +12065,8 @@
    "data": "grassmann/packings/m15n1N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N91.txt",
    "seconds": 84,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11585,7 +12089,8 @@
    "data": "grassmann/packings/m15n1N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N92.txt",
    "seconds": 85,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11608,7 +12113,8 @@
    "data": "grassmann/packings/m15n1N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N93.txt",
    "seconds": 87,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11631,7 +12137,8 @@
    "data": "grassmann/packings/m15n1N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N94.txt",
    "seconds": 87,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11654,7 +12161,8 @@
    "data": "grassmann/packings/m15n1N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N95.txt",
    "seconds": 88,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11677,7 +12185,8 @@
    "data": "grassmann/packings/m15n1N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N96.txt",
    "seconds": 88,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11700,7 +12209,8 @@
    "data": "grassmann/packings/m15n1N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N97.txt",
    "seconds": 87,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11723,7 +12233,8 @@
    "data": "grassmann/packings/m15n1N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N98.txt",
    "seconds": 89,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11746,7 +12257,8 @@
    "data": "grassmann/packings/m15n1N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N99.txt",
    "seconds": 90,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11769,7 +12281,8 @@
    "data": "grassmann/packings/m15n1N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n1N100.txt",
    "seconds": 91,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11792,7 +12305,8 @@
    "data": "grassmann/packings/m15n2N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N51.txt",
    "seconds": 97,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11815,7 +12329,8 @@
    "data": "grassmann/packings/m15n2N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N52.txt",
    "seconds": 101,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11838,7 +12353,8 @@
    "data": "grassmann/packings/m15n2N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N53.txt",
    "seconds": 105,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11861,7 +12377,8 @@
    "data": "grassmann/packings/m15n2N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N54.txt",
    "seconds": 108,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11884,7 +12401,8 @@
    "data": "grassmann/packings/m15n2N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N55.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11907,7 +12425,8 @@
    "data": "grassmann/packings/m15n2N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N56.txt",
    "seconds": 116,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11930,7 +12449,8 @@
    "data": "grassmann/packings/m15n2N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N57.txt",
    "seconds": 120,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11953,7 +12473,8 @@
    "data": "grassmann/packings/m15n2N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N58.txt",
    "seconds": 124,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11976,7 +12497,8 @@
    "data": "grassmann/packings/m15n2N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N59.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -11999,7 +12521,8 @@
    "data": "grassmann/packings/m15n2N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N61.txt",
    "seconds": 137,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12022,7 +12545,8 @@
    "data": "grassmann/packings/m15n2N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N62.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12045,7 +12569,8 @@
    "data": "grassmann/packings/m15n2N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N63.txt",
    "seconds": 145,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12068,7 +12593,8 @@
    "data": "grassmann/packings/m15n2N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N64.txt",
    "seconds": 150,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12091,7 +12617,8 @@
    "data": "grassmann/packings/m15n2N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N65.txt",
    "seconds": 113,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12114,7 +12641,8 @@
    "data": "grassmann/packings/m15n2N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N66.txt",
    "seconds": 116,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12137,7 +12665,8 @@
    "data": "grassmann/packings/m15n2N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N67.txt",
    "seconds": 118,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12160,7 +12689,8 @@
    "data": "grassmann/packings/m15n2N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N68.txt",
    "seconds": 122,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12183,7 +12713,8 @@
    "data": "grassmann/packings/m15n2N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N69.txt",
    "seconds": 122,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12206,7 +12737,8 @@
    "data": "grassmann/packings/m15n2N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N70.txt",
    "seconds": 126,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12229,7 +12761,8 @@
    "data": "grassmann/packings/m15n2N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N71.txt",
    "seconds": 130,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12252,7 +12785,8 @@
    "data": "grassmann/packings/m15n2N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N72.txt",
    "seconds": 133,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12275,7 +12809,8 @@
    "data": "grassmann/packings/m15n2N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N73.txt",
    "seconds": 136,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12298,7 +12833,8 @@
    "data": "grassmann/packings/m15n2N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N74.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12321,7 +12857,8 @@
    "data": "grassmann/packings/m15n2N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N75.txt",
    "seconds": 143,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12344,7 +12881,8 @@
    "data": "grassmann/packings/m15n2N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N76.txt",
    "seconds": 146,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12367,7 +12905,8 @@
    "data": "grassmann/packings/m15n2N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N77.txt",
    "seconds": 155,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12390,7 +12929,8 @@
    "data": "grassmann/packings/m15n2N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N78.txt",
    "seconds": 157,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12413,7 +12953,8 @@
    "data": "grassmann/packings/m15n2N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N79.txt",
    "seconds": 161,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12436,7 +12977,8 @@
    "data": "grassmann/packings/m15n2N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N80.txt",
    "seconds": 165,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12459,7 +13001,8 @@
    "data": "grassmann/packings/m15n2N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N81.txt",
    "seconds": 169,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12482,7 +13025,8 @@
    "data": "grassmann/packings/m15n2N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N82.txt",
    "seconds": 176,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12505,7 +13049,8 @@
    "data": "grassmann/packings/m15n2N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N83.txt",
    "seconds": 181,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12528,7 +13073,8 @@
    "data": "grassmann/packings/m15n2N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N84.txt",
    "seconds": 184,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12551,7 +13097,8 @@
    "data": "grassmann/packings/m15n2N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N85.txt",
    "seconds": 188,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12574,7 +13121,8 @@
    "data": "grassmann/packings/m15n2N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N86.txt",
    "seconds": 189,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12597,7 +13145,8 @@
    "data": "grassmann/packings/m15n2N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N87.txt",
    "seconds": 192,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12620,7 +13169,8 @@
    "data": "grassmann/packings/m15n2N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N88.txt",
    "seconds": 196,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12643,7 +13193,8 @@
    "data": "grassmann/packings/m15n2N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N89.txt",
    "seconds": 200,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12666,7 +13217,8 @@
    "data": "grassmann/packings/m15n2N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N90.txt",
    "seconds": 204,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12689,7 +13241,8 @@
    "data": "grassmann/packings/m15n2N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N91.txt",
    "seconds": 207,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12712,7 +13265,8 @@
    "data": "grassmann/packings/m15n2N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N92.txt",
    "seconds": 208,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12735,7 +13289,8 @@
    "data": "grassmann/packings/m15n2N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N93.txt",
    "seconds": 220,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12758,7 +13313,8 @@
    "data": "grassmann/packings/m15n2N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N94.txt",
    "seconds": 226,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12781,7 +13337,8 @@
    "data": "grassmann/packings/m15n2N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N95.txt",
    "seconds": 230,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12804,7 +13361,8 @@
    "data": "grassmann/packings/m15n2N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N96.txt",
    "seconds": 235,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12827,7 +13385,8 @@
    "data": "grassmann/packings/m15n2N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N97.txt",
    "seconds": 239,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12850,7 +13409,8 @@
    "data": "grassmann/packings/m15n2N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N98.txt",
    "seconds": 254,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12873,7 +13433,8 @@
    "data": "grassmann/packings/m15n2N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N99.txt",
    "seconds": 261,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12896,7 +13457,8 @@
    "data": "grassmann/packings/m15n2N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n2N100.txt",
    "seconds": 266,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12919,7 +13481,8 @@
    "data": "grassmann/packings/m15n3N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N51.txt",
    "seconds": 96,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12942,7 +13505,8 @@
    "data": "grassmann/packings/m15n3N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N52.txt",
    "seconds": 100,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12965,7 +13529,8 @@
    "data": "grassmann/packings/m15n3N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N53.txt",
    "seconds": 102,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -12988,7 +13553,8 @@
    "data": "grassmann/packings/m15n3N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N54.txt",
    "seconds": 103,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13011,7 +13577,8 @@
    "data": "grassmann/packings/m15n3N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N55.txt",
    "seconds": 107,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13034,7 +13601,8 @@
    "data": "grassmann/packings/m15n3N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N56.txt",
    "seconds": 111,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13057,7 +13625,8 @@
    "data": "grassmann/packings/m15n3N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N57.txt",
    "seconds": 115,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13080,7 +13649,8 @@
    "data": "grassmann/packings/m15n3N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N58.txt",
    "seconds": 119,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13103,7 +13673,8 @@
    "data": "grassmann/packings/m15n3N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N61.txt",
    "seconds": 131,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13126,7 +13697,8 @@
    "data": "grassmann/packings/m15n3N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N62.txt",
    "seconds": 135,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13149,7 +13721,8 @@
    "data": "grassmann/packings/m15n3N63.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N63.txt",
    "seconds": 139,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13172,7 +13745,8 @@
    "data": "grassmann/packings/m15n3N64.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N64.txt",
    "seconds": 143,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13195,7 +13769,8 @@
    "data": "grassmann/packings/m15n3N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N65.txt",
    "seconds": 117,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13218,7 +13793,8 @@
    "data": "grassmann/packings/m15n3N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N66.txt",
    "seconds": 120,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13241,7 +13817,8 @@
    "data": "grassmann/packings/m15n3N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N67.txt",
    "seconds": 122,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13264,7 +13841,8 @@
    "data": "grassmann/packings/m15n3N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N68.txt",
    "seconds": 126,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13287,7 +13865,8 @@
    "data": "grassmann/packings/m15n3N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N69.txt",
    "seconds": 129,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13310,7 +13889,8 @@
    "data": "grassmann/packings/m15n3N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N70.txt",
    "seconds": 133,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13333,7 +13913,8 @@
    "data": "grassmann/packings/m15n3N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N71.txt",
    "seconds": 138,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13356,7 +13937,8 @@
    "data": "grassmann/packings/m15n3N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N72.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13379,7 +13961,8 @@
    "data": "grassmann/packings/m15n3N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N73.txt",
    "seconds": 145,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13402,7 +13985,8 @@
    "data": "grassmann/packings/m15n3N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N76.txt",
    "seconds": 159,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13425,7 +14009,8 @@
    "data": "grassmann/packings/m15n3N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N77.txt",
    "seconds": 165,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13448,7 +14033,8 @@
    "data": "grassmann/packings/m15n3N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N78.txt",
    "seconds": 168,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13471,7 +14057,8 @@
    "data": "grassmann/packings/m15n3N79.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N79.txt",
    "seconds": 171,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13494,7 +14081,8 @@
    "data": "grassmann/packings/m15n3N80.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N80.txt",
    "seconds": 174,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13517,7 +14105,8 @@
    "data": "grassmann/packings/m15n3N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N81.txt",
    "seconds": 176,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13540,7 +14129,8 @@
    "data": "grassmann/packings/m15n3N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N82.txt",
    "seconds": 174,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13563,7 +14153,8 @@
    "data": "grassmann/packings/m15n3N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N83.txt",
    "seconds": 173,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13586,7 +14177,8 @@
    "data": "grassmann/packings/m15n3N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N84.txt",
    "seconds": 176,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13609,7 +14201,8 @@
    "data": "grassmann/packings/m15n3N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N85.txt",
    "seconds": 180,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13632,7 +14225,8 @@
    "data": "grassmann/packings/m15n3N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N86.txt",
    "seconds": 203,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13655,7 +14249,8 @@
    "data": "grassmann/packings/m15n3N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N87.txt",
    "seconds": 209,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13678,7 +14273,8 @@
    "data": "grassmann/packings/m15n3N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N88.txt",
    "seconds": 213,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13701,7 +14297,8 @@
    "data": "grassmann/packings/m15n3N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N89.txt",
    "seconds": 218,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13724,7 +14321,8 @@
    "data": "grassmann/packings/m15n3N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N90.txt",
    "seconds": 224,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13747,7 +14345,8 @@
    "data": "grassmann/packings/m15n3N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N91.txt",
    "seconds": 230,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13770,7 +14369,8 @@
    "data": "grassmann/packings/m15n3N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N92.txt",
    "seconds": 234,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13793,7 +14393,8 @@
    "data": "grassmann/packings/m15n3N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N93.txt",
    "seconds": 239,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13816,7 +14417,8 @@
    "data": "grassmann/packings/m15n3N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N94.txt",
    "seconds": 245,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13839,7 +14441,8 @@
    "data": "grassmann/packings/m15n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N95.txt",
    "seconds": 248,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13862,7 +14465,8 @@
    "data": "grassmann/packings/m15n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N96.txt",
    "seconds": 187,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13885,7 +14489,8 @@
    "data": "grassmann/packings/m15n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N97.txt",
    "seconds": 255,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13908,7 +14513,8 @@
    "data": "grassmann/packings/m15n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N98.txt",
    "seconds": 260,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13931,7 +14537,8 @@
    "data": "grassmann/packings/m15n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N99.txt",
    "seconds": 194,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13954,7 +14561,8 @@
    "data": "grassmann/packings/m15n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m15n3N100.txt",
    "seconds": 197,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -13977,7 +14585,8 @@
    "data": "grassmann/packings/m16n1N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N51.txt",
    "seconds": 68,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14000,7 +14609,8 @@
    "data": "grassmann/packings/m16n1N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N52.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14023,7 +14633,8 @@
    "data": "grassmann/packings/m16n1N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N53.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14046,7 +14657,8 @@
    "data": "grassmann/packings/m16n1N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N54.txt",
    "seconds": 69,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14069,7 +14681,8 @@
    "data": "grassmann/packings/m16n1N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N55.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14092,7 +14705,8 @@
    "data": "grassmann/packings/m16n1N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N56.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14115,7 +14729,8 @@
    "data": "grassmann/packings/m16n1N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N57.txt",
    "seconds": 70,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14138,7 +14753,8 @@
    "data": "grassmann/packings/m16n1N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n1N58.txt",
    "seconds": 71,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14161,7 +14777,8 @@
    "data": "grassmann/packings/m16n3N51.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N51.txt",
    "seconds": 100,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14184,7 +14801,8 @@
    "data": "grassmann/packings/m16n3N52.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N52.txt",
    "seconds": 103,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14207,7 +14825,8 @@
    "data": "grassmann/packings/m16n3N53.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N53.txt",
    "seconds": 106,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14230,7 +14849,8 @@
    "data": "grassmann/packings/m16n3N54.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N54.txt",
    "seconds": 110,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14253,7 +14873,8 @@
    "data": "grassmann/packings/m16n3N55.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N55.txt",
    "seconds": 112,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14276,7 +14897,8 @@
    "data": "grassmann/packings/m16n3N56.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N56.txt",
    "seconds": 116,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14299,7 +14921,8 @@
    "data": "grassmann/packings/m16n3N57.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N57.txt",
    "seconds": 123,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14322,7 +14945,8 @@
    "data": "grassmann/packings/m16n3N58.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N58.txt",
    "seconds": 127,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14345,7 +14969,8 @@
    "data": "grassmann/packings/m16n3N59.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N59.txt",
    "seconds": 131,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14368,7 +14993,8 @@
    "data": "grassmann/packings/m16n3N60.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N60.txt",
    "seconds": 135,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14391,7 +15017,8 @@
    "data": "grassmann/packings/m16n3N61.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N61.txt",
    "seconds": 140,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14414,7 +15041,8 @@
    "data": "grassmann/packings/m16n3N62.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N62.txt",
    "seconds": 144,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14437,7 +15065,8 @@
    "data": "grassmann/packings/m16n3N65.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N65.txt",
    "seconds": 124,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14460,7 +15089,8 @@
    "data": "grassmann/packings/m16n3N66.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N66.txt",
    "seconds": 128,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14483,7 +15113,8 @@
    "data": "grassmann/packings/m16n3N67.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N67.txt",
    "seconds": 132,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14506,7 +15137,8 @@
    "data": "grassmann/packings/m16n3N68.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N68.txt",
    "seconds": 136,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14529,7 +15161,8 @@
    "data": "grassmann/packings/m16n3N69.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N69.txt",
    "seconds": 137,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14552,7 +15185,8 @@
    "data": "grassmann/packings/m16n3N70.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N70.txt",
    "seconds": 141,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14575,7 +15209,8 @@
    "data": "grassmann/packings/m16n3N71.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N71.txt",
    "seconds": 145,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14598,7 +15233,8 @@
    "data": "grassmann/packings/m16n3N72.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N72.txt",
    "seconds": 149,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14621,7 +15257,8 @@
    "data": "grassmann/packings/m16n3N73.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N73.txt",
    "seconds": 154,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14644,7 +15281,8 @@
    "data": "grassmann/packings/m16n3N74.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N74.txt",
    "seconds": 158,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14667,7 +15305,8 @@
    "data": "grassmann/packings/m16n3N75.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N75.txt",
    "seconds": 162,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14690,7 +15329,8 @@
    "data": "grassmann/packings/m16n3N76.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N76.txt",
    "seconds": 166,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14713,7 +15353,8 @@
    "data": "grassmann/packings/m16n3N77.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N77.txt",
    "seconds": 171,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14736,7 +15377,8 @@
    "data": "grassmann/packings/m16n3N78.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N78.txt",
    "seconds": 179,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14759,7 +15401,8 @@
    "data": "grassmann/packings/m16n3N81.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N81.txt",
    "seconds": 193,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14782,7 +15425,8 @@
    "data": "grassmann/packings/m16n3N82.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N82.txt",
    "seconds": 196,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14805,7 +15449,8 @@
    "data": "grassmann/packings/m16n3N83.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N83.txt",
    "seconds": 201,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14828,7 +15473,8 @@
    "data": "grassmann/packings/m16n3N84.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N84.txt",
    "seconds": 204,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14851,7 +15497,8 @@
    "data": "grassmann/packings/m16n3N85.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N85.txt",
    "seconds": 209,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14874,7 +15521,8 @@
    "data": "grassmann/packings/m16n3N86.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N86.txt",
    "seconds": 215,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14897,7 +15545,8 @@
    "data": "grassmann/packings/m16n3N87.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N87.txt",
    "seconds": 220,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14920,7 +15569,8 @@
    "data": "grassmann/packings/m16n3N88.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N88.txt",
    "seconds": 224,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14943,7 +15593,8 @@
    "data": "grassmann/packings/m16n3N89.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N89.txt",
    "seconds": 229,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14966,7 +15617,8 @@
    "data": "grassmann/packings/m16n3N90.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N90.txt",
    "seconds": 234,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -14989,7 +15641,8 @@
    "data": "grassmann/packings/m16n3N91.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N91.txt",
    "seconds": 239,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15012,7 +15665,8 @@
    "data": "grassmann/packings/m16n3N92.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N92.txt",
    "seconds": 246,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15035,7 +15689,8 @@
    "data": "grassmann/packings/m16n3N93.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N93.txt",
    "seconds": 251,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15058,7 +15713,8 @@
    "data": "grassmann/packings/m16n3N94.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N94.txt",
    "seconds": 187,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15081,7 +15737,8 @@
    "data": "grassmann/packings/m16n3N95.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N95.txt",
    "seconds": 190,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15104,7 +15761,8 @@
    "data": "grassmann/packings/m16n3N96.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N96.txt",
    "seconds": 195,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15127,7 +15785,8 @@
    "data": "grassmann/packings/m16n3N97.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N97.txt",
    "seconds": 200,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15150,7 +15809,8 @@
    "data": "grassmann/packings/m16n3N98.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N98.txt",
    "seconds": 203,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15173,7 +15833,8 @@
    "data": "grassmann/packings/m16n3N99.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N99.txt",
    "seconds": 207,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15196,7 +15857,8 @@
    "data": "grassmann/packings/m16n3N100.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N100.txt",
    "seconds": 211,
-   "band": "N<=100"
+   "band": "N<=100",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15219,7 +15881,8 @@
    "data": "grassmann/packings/m16n3N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N120.txt",
    "seconds": 302,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15242,7 +15905,8 @@
    "data": "grassmann/packings/m8n3N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N120.txt",
    "seconds": 221,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15265,7 +15929,8 @@
    "data": "grassmann/packings/m14n1N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N120.txt",
    "seconds": 101,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15288,7 +15953,8 @@
    "data": "grassmann/packings/m8n2N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N120.txt",
    "seconds": 208,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15311,7 +15977,8 @@
    "data": "grassmann/packings/m12n1N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N120.txt",
    "seconds": 95,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15334,7 +16001,8 @@
    "data": "grassmann/packings/m10n1N120.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N120.txt",
    "seconds": 91,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15357,7 +16025,8 @@
    "data": "grassmann/packings/m8n3N114.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N114.txt",
    "seconds": 200,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15380,7 +16049,8 @@
    "data": "grassmann/packings/m8n3N101.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N101.txt",
    "seconds": 156,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15403,7 +16073,8 @@
    "data": "grassmann/packings/m8n2N111.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N111.txt",
    "seconds": 184,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15426,7 +16097,8 @@
    "data": "grassmann/packings/m8n3N107.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N107.txt",
    "seconds": 176,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15449,7 +16121,8 @@
    "data": "grassmann/packings/m8n3N110.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N110.txt",
    "seconds": 186,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15472,7 +16145,8 @@
    "data": "grassmann/packings/m8n3N119.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N119.txt",
    "seconds": 218,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15495,7 +16169,8 @@
    "data": "grassmann/packings/m8n3N112.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N112.txt",
    "seconds": 193,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15518,7 +16193,8 @@
    "data": "grassmann/packings/m8n3N104.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N104.txt",
    "seconds": 166,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15541,7 +16217,8 @@
    "data": "grassmann/packings/m8n3N105.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N105.txt",
    "seconds": 169,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15564,7 +16241,8 @@
    "data": "grassmann/packings/m8n3N116.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N116.txt",
    "seconds": 207,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15587,7 +16265,8 @@
    "data": "grassmann/packings/m10n1N119.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N119.txt",
    "seconds": 89,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15610,7 +16289,8 @@
    "data": "grassmann/packings/m8n2N104.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N104.txt",
    "seconds": 155,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15633,7 +16313,8 @@
    "data": "grassmann/packings/m8n3N109.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N109.txt",
    "seconds": 183,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15656,7 +16337,8 @@
    "data": "grassmann/packings/m8n2N117.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N117.txt",
    "seconds": 197,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15679,7 +16361,8 @@
    "data": "grassmann/packings/m8n2N102.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N102.txt",
    "seconds": 150,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15702,7 +16385,8 @@
    "data": "grassmann/packings/m8n2N108.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N108.txt",
    "seconds": 163,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15725,7 +16409,8 @@
    "data": "grassmann/packings/m8n2N106.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N106.txt",
    "seconds": 160,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15748,7 +16433,8 @@
    "data": "grassmann/packings/m10n1N103.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N103.txt",
    "seconds": 81,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15771,7 +16457,8 @@
    "data": "grassmann/packings/m8n3N118.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N118.txt",
    "seconds": 214,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15794,7 +16481,8 @@
    "data": "grassmann/packings/m8n2N109.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N109.txt",
    "seconds": 163,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15817,7 +16505,8 @@
    "data": "grassmann/packings/m8n2N113.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N113.txt",
    "seconds": 186,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15840,7 +16529,8 @@
    "data": "grassmann/packings/m12n1N104.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N104.txt",
    "seconds": 86,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15863,7 +16553,8 @@
    "data": "grassmann/packings/m10n1N101.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N101.txt",
    "seconds": 81,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15886,7 +16577,8 @@
    "data": "grassmann/packings/m10n1N106.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N106.txt",
    "seconds": 82,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15909,7 +16601,8 @@
    "data": "grassmann/packings/m12n1N105.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N105.txt",
    "seconds": 86,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15932,7 +16625,8 @@
    "data": "grassmann/packings/m10n1N109.txt",
    "check": "python grassmann/verify.py grassmann/packings/m10n1N109.txt",
    "seconds": 84,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15955,7 +16649,8 @@
    "data": "grassmann/packings/m16n3N104.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N104.txt",
    "seconds": 222,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -15978,7 +16673,8 @@
    "data": "grassmann/packings/m12n1N112.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N112.txt",
    "seconds": 91,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16001,7 +16697,8 @@
    "data": "grassmann/packings/m14n1N105.txt",
    "check": "python grassmann/verify.py grassmann/packings/m14n1N105.txt",
    "seconds": 91,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16024,7 +16721,8 @@
    "data": "grassmann/packings/m8n2N119.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n2N119.txt",
    "seconds": 204,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16047,7 +16745,8 @@
    "data": "grassmann/packings/m8n3N102.txt",
    "check": "python grassmann/verify.py grassmann/packings/m8n3N102.txt",
    "seconds": 159,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16070,7 +16769,8 @@
    "data": "grassmann/packings/m12n1N111.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N111.txt",
    "seconds": 90,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16093,7 +16793,8 @@
    "data": "grassmann/packings/m12n1N119.txt",
    "check": "python grassmann/verify.py grassmann/packings/m12n1N119.txt",
    "seconds": 93,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "grassmann",
@@ -16116,7 +16817,80 @@
    "data": "grassmann/packings/m16n3N107.txt",
    "check": "python grassmann/verify.py grassmann/packings/m16n3N107.txt",
    "seconds": 242,
-   "band": "N=101..120"
+   "band": "N=101..120",
+   "withdrawn": false
+  },
+  {
+   "kind": "grassmann",
+   "family": [
+    12,
+    1
+   ],
+   "m": 12,
+   "n": 1,
+   "N": 109,
+   "cell": "m12n1N109",
+   "slug": "A-Packing-of-109-Lines-in-R12-October-9-2026",
+   "title": "A Packing of 109 Lines in R12",
+   "title_tex": "A Packing of 109 Lines in $\\mathbb{R}^{12}$",
+   "date": "October 9, 2026",
+   "abstract": "We give 109 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.843427. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.842052, obtained by deleting 1 of the 110 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "abstract_tex": "We give 109 1-dimensional subspaces of $\\mathbb{R}^{12}$ whose smallest squared chordal distance is at least 0.843427. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.842052, obtained by deleting 1 of the 110 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "claim": "D_min >= 0.843427",
+   "exact": "27207350432741170946798640329520973712637006791/32258064516114319595594288134793475801652136142",
+   "data": "grassmann/packings/m12n1N109.txt",
+   "check": "python grassmann/verify.py grassmann/packings/m12n1N109.txt",
+   "seconds": 89,
+   "band": "N=101..120",
+   "withdrawn": false
+  },
+  {
+   "kind": "grassmann",
+   "family": [
+    12,
+    1
+   ],
+   "m": 12,
+   "n": 1,
+   "N": 116,
+   "cell": "m12n1N116",
+   "slug": "A-Packing-of-116-Lines-in-R12-October-9-2026",
+   "title": "A Packing of 116 Lines in R12",
+   "title_tex": "A Packing of 116 Lines in $\\mathbb{R}^{12}$",
+   "date": "October 9, 2026",
+   "abstract": "We give 116 1-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 0.835701. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.834328, obtained by deleting 1 of the 117 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "abstract_tex": "We give 116 1-dimensional subspaces of $\\mathbb{R}^{12}$ whose smallest squared chordal distance is at least 0.835701. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.834328, obtained by deleting 1 of the 117 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "claim": "D_min >= 0.835701",
+   "exact": "417850754867410489528239123358424215828959097629/500000000000265404160252487913511276696288769637",
+   "data": "grassmann/packings/m12n1N116.txt",
+   "check": "python grassmann/verify.py grassmann/packings/m12n1N116.txt",
+   "seconds": 92,
+   "band": "N=101..120",
+   "withdrawn": false
+  },
+  {
+   "kind": "grassmann",
+   "family": [
+    10,
+    1
+   ],
+   "m": 10,
+   "n": 1,
+   "N": 112,
+   "cell": "m10n1N112",
+   "slug": "A-Packing-of-112-Lines-in-R10-October-9-2026",
+   "title": "A Packing of 112 Lines in R10",
+   "title_tex": "A Packing of 112 Lines in $\\mathbb{R}^{10}$",
+   "date": "October 9, 2026",
+   "abstract": "We give 112 1-dimensional subspaces of R^10 whose smallest squared chordal distance is at least 0.768892. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.767532, obtained by deleting 1 of the 113 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "abstract_tex": "We give 112 1-dimensional subspaces of $\\mathbb{R}^{10}$ whose smallest squared chordal distance is at least 0.768892. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 0.767532, obtained by deleting 1 of the 113 lines of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.",
+   "claim": "D_min >= 0.768892",
+   "exact": "85432490023372774846698192089366177421735592661/111111111111115283448812633214866422702711014885",
+   "data": "grassmann/packings/m10n1N112.txt",
+   "check": "python grassmann/verify.py grassmann/packings/m10n1N112.txt",
+   "seconds": 86,
+   "band": "N=101..120",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16137,7 +16911,8 @@
    "data": "friedman-maxmin2d/coords/n32.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n32.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16158,7 +16933,8 @@
    "data": "friedman-maxmin2d/coords/n33.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n33.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16179,7 +16955,8 @@
    "data": "friedman-maxmin2d/coords/n34.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n34.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16200,7 +16977,8 @@
    "data": "friedman-maxmin2d/coords/n35.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n35.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16221,7 +16999,8 @@
    "data": "friedman-maxmin2d/coords/n36.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n36.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16242,7 +17021,8 @@
    "data": "friedman-maxmin2d/coords/n37.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n37.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16263,7 +17043,8 @@
    "data": "friedman-maxmin2d/coords/n38.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n38.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16284,7 +17065,8 @@
    "data": "friedman-maxmin2d/coords/n39.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n39.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16305,7 +17087,8 @@
    "data": "friedman-maxmin2d/coords/n40.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n40.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16326,7 +17109,8 @@
    "data": "friedman-maxmin2d/coords/n41.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n41.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16347,7 +17131,8 @@
    "data": "friedman-maxmin2d/coords/n42.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n42.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16368,7 +17153,8 @@
    "data": "friedman-maxmin2d/coords/n43.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n43.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16389,7 +17175,8 @@
    "data": "friedman-maxmin2d/coords/n44.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n44.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16410,7 +17197,8 @@
    "data": "friedman-maxmin2d/coords/n45.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n45.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16431,7 +17219,8 @@
    "data": "friedman-maxmin2d/coords/n46.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n46.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16452,7 +17241,8 @@
    "data": "friedman-maxmin2d/coords/n47.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n47.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16473,7 +17263,8 @@
    "data": "friedman-maxmin2d/coords/n48.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n48.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16494,7 +17285,8 @@
    "data": "friedman-maxmin2d/coords/n49.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n49.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   },
   {
    "kind": "plane",
@@ -16515,7 +17307,8 @@
    "data": "friedman-maxmin2d/coords/n50.txt",
    "check": "python friedman-maxmin2d/verify.py friedman-maxmin2d/coords/n50.txt",
    "seconds": null,
-   "band": "plane"
+   "band": "plane",
+   "withdrawn": false
   }
  ],
  "families": [
@@ -16528,6 +17321,7 @@
     "A-Packing-of-103-Lines-in-R10-October-9-2026",
     "A-Packing-of-106-Lines-in-R10-October-9-2026",
     "A-Packing-of-109-Lines-in-R10-October-9-2026",
+    "A-Packing-of-112-Lines-in-R10-October-9-2026",
     "A-Packing-of-119-Lines-in-R10-October-9-2026",
     "A-Packing-of-120-Lines-in-R10-October-9-2026"
    ]
@@ -16569,8 +17363,10 @@
     "A-Packing-of-100-Lines-in-R12-October-8-2026",
     "A-Packing-of-104-Lines-in-R12-October-9-2026",
     "A-Packing-of-105-Lines-in-R12-October-9-2026",
+    "A-Packing-of-109-Lines-in-R12-October-9-2026",
     "A-Packing-of-111-Lines-in-R12-October-9-2026",
     "A-Packing-of-112-Lines-in-R12-October-9-2026",
+    "A-Packing-of-116-Lines-in-R12-October-9-2026",
     "A-Packing-of-119-Lines-in-R12-October-9-2026",
     "A-Packing-of-120-Lines-in-R12-October-9-2026"
    ]

@@ -8,8 +8,8 @@ project:
   license: "MIT"
 
 summary:
-  manuscripts: 719
-  verified: 719
+  manuscripts: 722
+  verified: 722
   share: "100%"
 
 sources:
@@ -48,6 +48,15 @@ sources:
     claim: "D_min >= 0.772262"
     exact: "772262594682987581155553533590922139519116045910/1000000000000427422482440044725335957546367693959"
     check: "python grassmann/verify.py grassmann/packings/m10n1N109.txt"
+
+  - title: "A Packing of 112 Lines in R10"
+    authors: ["Limin Ge"]
+    id: preprints/A-Packing-of-112-Lines-in-R10-October-9-2026/paper.pdf
+    type: article
+    data: grassmann/packings/m10n1N112.txt
+    claim: "D_min >= 0.768892"
+    exact: "85432490023372774846698192089366177421735592661/111111111111115283448812633214866422702711014885"
+    check: "python grassmann/verify.py grassmann/packings/m10n1N112.txt"
 
   - title: "A Packing of 119 Lines in R10"
     authors: ["Limin Ge"]
@@ -292,6 +301,15 @@ sources:
     exact: "848101684892401021135687901745970267152811678241/999999999998921459778357097851999971139876735882"
     check: "python grassmann/verify.py grassmann/packings/m12n1N105.txt"
 
+  - title: "A Packing of 109 Lines in R12"
+    authors: ["Limin Ge"]
+    id: preprints/A-Packing-of-109-Lines-in-R12-October-9-2026/paper.pdf
+    type: article
+    data: grassmann/packings/m12n1N109.txt
+    claim: "D_min >= 0.843427"
+    exact: "27207350432741170946798640329520973712637006791/32258064516114319595594288134793475801652136142"
+    check: "python grassmann/verify.py grassmann/packings/m12n1N109.txt"
+
   - title: "A Packing of 111 Lines in R12"
     authors: ["Limin Ge"]
     id: preprints/A-Packing-of-111-Lines-in-R12-October-9-2026/paper.pdf
@@ -309,6 +327,15 @@ sources:
     claim: "D_min >= 0.839898"
     exact: "167979648814969686047122339204964852419208539696/199999999999864835757542822802061087463194614541"
     check: "python grassmann/verify.py grassmann/packings/m12n1N112.txt"
+
+  - title: "A Packing of 116 Lines in R12"
+    authors: ["Limin Ge"]
+    id: preprints/A-Packing-of-116-Lines-in-R12-October-9-2026/paper.pdf
+    type: article
+    data: grassmann/packings/m12n1N116.txt
+    claim: "D_min >= 0.835701"
+    exact: "417850754867410489528239123358424215828959097629/500000000000265404160252487913511276696288769637"
+    check: "python grassmann/verify.py grassmann/packings/m12n1N116.txt"
 
   - title: "A Packing of 119 Lines in R12"
     authors: ["Limin Ge"]

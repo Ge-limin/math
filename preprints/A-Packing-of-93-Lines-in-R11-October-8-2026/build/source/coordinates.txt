@@ -1,5 +1,3 @@
-# Packing of N=93 1-dimensional subspaces of R^11; each block is an m x n basis (integers / 10^12)
-# m n N 11 1 93
 8966728240
 363016091121
 357188582307

@@ -1,5 +1,3 @@
-# Packing of N=58 1-dimensional subspaces of R^16; each block is an m x n basis (integers / 10^12)
-# m n N 16 1 58
 257663082586
 90285615
 111813511271

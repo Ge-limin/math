@@ -1,5 +1,3 @@
-# Packing of N=74 1-dimensional subspaces of R^13; each block is an m x n basis (integers / 10^12)
-# m n N 13 1 74
 149191361837
 -216865371500
 219893959935

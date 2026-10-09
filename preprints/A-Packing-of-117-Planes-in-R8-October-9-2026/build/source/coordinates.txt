@@ -1,5 +1,3 @@
-# Packing of N=117 2-dimensional subspaces of R^8; each block is an m x n basis (integers / 10^12)
-# m n N 8 2 117
 63196737329 447397238893
 393217717197 43445132374
 -704373854081 -310577733528
