@@ -1,6 +1,25 @@
 # History
 
-For any withdrawn papers, their README files explain the gap. So far there are none.
+For any withdrawn papers, their README files explain the gap and the manuscript stays in place.
+
+## October 9, 2026 (update)
+
+**Withdrawals**
+
+An audit of the release found three manuscripts that should not be in the catalogue. We have withdrawn them:
+
+- A Packing of 5 Four-Spaces in R10: the value stated, 2.999999, is the simplex bound 3 minus the precision of the search. The cell's optimum is very likely exactly 3, which the manuscript does not prove.
+- A Packing of 98 Four-Spaces in R12 and A Packing of 96 Four-Spaces in R12: the two smallest margins over the trivial bound in the collection (0.0000106 and 0.0000117), each obtained by deleting one subspace from this collection's own packing for N + 1. They improve on this collection, not on anything published.
+
+The withdrawn manuscripts now carry notices explaining the problem. Each withdrawal concerns the statement or its significance; none asserts that a configuration is wrong.
+
+**Fixes**
+
+None.
+
+**Verifications**
+
+This brings the total of top-line results verified to 719 / 719 = 100%.
 
 ## October 9, 2026
 

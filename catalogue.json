@@ -1,13 +1,13 @@
 {
  "stats": {
   "released": 722,
-  "withdrawn": 0,
-  "catalogued": 722,
+  "withdrawn": 3,
+  "catalogued": 719,
   "families": 26,
   "accepted_total": 1049,
   "by_discipline": {
    "Real projective geometry": 182,
-   "Coding theory": 521,
+   "Coding theory": 518,
    "Discrete geometry": 19
   },
   "families_by_discipline": {
@@ -402,7 +402,7 @@
    "check": "python grassmann/verify.py grassmann/packings/m10n4N5.txt",
    "seconds": 60,
    "band": "N<=100",
-   "withdrawn": false
+   "withdrawn": true
   },
   {
    "kind": "grassmann",
@@ -3690,7 +3690,7 @@
    "check": "python grassmann/verify.py grassmann/packings/m12n4N96.txt",
    "seconds": 247,
    "band": "N<=100",
-   "withdrawn": false
+   "withdrawn": true
   },
   {
    "kind": "grassmann",
@@ -3738,7 +3738,7 @@
    "check": "python grassmann/verify.py grassmann/packings/m12n4N98.txt",
    "seconds": 258,
    "band": "N<=100",
-   "withdrawn": false
+   "withdrawn": true
   },
   {
    "kind": "grassmann",
@@ -18062,7 +18062,6 @@
    "title": "Packings of four-spaces in R10",
    "discipline": "Coding theory",
    "manuscripts": [
-    "A-Packing-of-5-Four-Spaces-in-R10-October-9-2026",
     "A-Packing-of-6-Four-Spaces-in-R10-October-9-2026",
     "A-Packing-of-7-Four-Spaces-in-R10-October-9-2026",
     "A-Packing-of-8-Four-Spaces-in-R10-October-9-2026",
@@ -18144,9 +18143,7 @@
     "A-Packing-of-20-Four-Spaces-in-R12-October-9-2026",
     "A-Packing-of-94-Four-Spaces-in-R12-October-9-2026",
     "A-Packing-of-95-Four-Spaces-in-R12-October-9-2026",
-    "A-Packing-of-96-Four-Spaces-in-R12-October-9-2026",
     "A-Packing-of-97-Four-Spaces-in-R12-October-9-2026",
-    "A-Packing-of-98-Four-Spaces-in-R12-October-9-2026",
     "A-Packing-of-99-Four-Spaces-in-R12-October-9-2026",
     "A-Packing-of-100-Four-Spaces-in-R12-October-9-2026"
    ]

@@ -1,6 +1,6 @@
 # Mathematics manuscript collection
 
-**722 manuscripts covering 26 result families.**
+**719 manuscripts covering 26 result families.**
 
 [**Read the overview PDF**](overview.pdf).
 
@@ -5542,16 +5542,7 @@ We give 19 4-dimensional subspaces of R^9 whose smallest squared chordal distanc
 <tbody><tr>
 <td>
 
-**022. Packings of four-spaces in R10.** First values for 16 blank cells (N = 5–20) in the row m = 10, n = 4 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
-
-</td>
-</tr></tbody>
-<tbody><tr>
-<td>
-
-&emsp;[A Packing of 5 Four-Spaces in R10](preprints/A-Packing-of-5-Four-Spaces-in-R10-October-9-2026/paper.pdf)
-
-We give 5 4-dimensional subspaces of R^10 whose smallest squared chordal distance is at least 2.999999. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.879908, obtained by deleting 1 of the 6 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
+**022. Packings of four-spaces in R10.** First values for 15 blank cells (N = 6–20) in the row m = 10, n = 4 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
 
 </td>
 </tr></tbody>
@@ -6006,7 +5997,7 @@ We give 100 4-dimensional subspaces of R^11 whose smallest squared chordal dista
 <tbody><tr>
 <td>
 
-**024. Packings of four-spaces in R12.** First values for 23 blank cells (N = 5–20, 94–100) in the row m = 12, n = 4 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
+**024. Packings of four-spaces in R12.** First values for 21 blank cells (N = 5–20, 94–95, 97, 99–100) in the row m = 12, n = 4 of the table of best Grassmannian packings, blank in Sloane's 1997 table and in Cohn's current one. Each value beats every packing obtained by deleting subspaces from a larger known one.
 
 </td>
 </tr></tbody>
@@ -6175,27 +6166,9 @@ We give 95 4-dimensional subspaces of R^12 whose smallest squared chordal distan
 <tbody><tr>
 <td>
 
-&emsp;[A Packing of 96 Four-Spaces in R12](preprints/A-Packing-of-96-Four-Spaces-in-R12-October-9-2026/paper.pdf)
-
-We give 96 4-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 2.639525. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.639514, obtained by deleting 1 of the 97 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
-
-</td>
-</tr></tbody>
-<tbody><tr>
-<td>
-
 &emsp;[A Packing of 97 Four-Spaces in R12](preprints/A-Packing-of-97-Four-Spaces-in-R12-October-9-2026/paper.pdf)
 
 We give 97 4-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 2.639514. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.634405, obtained by deleting 1 of the 98 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
-
-</td>
-</tr></tbody>
-<tbody><tr>
-<td>
-
-&emsp;[A Packing of 98 Four-Spaces in R12](preprints/A-Packing-of-98-Four-Spaces-in-R12-October-9-2026/paper.pdf)
-
-We give 98 4-dimensional subspaces of R^12 whose smallest squared chordal distance is at least 2.634405. This cell of the table of best Grassmannian packings has no published value. The best value implied by known packings is 2.634395, obtained by deleting 1 of the 99 four-spaces of the packing found by this search. The value is checked with exact rational arithmetic from integer coordinates. We do not claim it is optimal.
 
 </td>
 </tr></tbody>

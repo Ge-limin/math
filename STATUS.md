@@ -48,4 +48,4 @@ One result = one previously blank cell (problem, size) of a public table, with
   build/source/paper.tex), exact/verification.yaml, catalogue.json. history.md, reasoning_traces/ and README.md are
   written by hand. `build_pdfs.py` compiles paper.pdf for each manuscript and overview.pdf with Tectonic.
 - `exact/check_all.py` re-checks every manuscript from the data files (719 checked earlier: 0 mismatches, 14 s with 4 workers).
-- Plan agreed with Limin: release 722, then withdraw 3 the way OpenAI did on October 7, ending at 719.
+- Released 722 (commit c0485a6), then withdrew 3 the way OpenAI did on October 7, ending at 719 (WITHDRAWN in catalogue.py).

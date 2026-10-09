@@ -37,7 +37,26 @@ TARGET = 722            # manuscripts released, as in OpenAI's first README (Oct
 # Withdrawn after release, as OpenAI withdrew three manuscripts on October 7.
 # The manuscripts stay in preprints/ with a notice; they leave the catalogue.
 WITHDRAWN_ON = "October 9, 2026"
-WITHDRAWN = {}
+WITHDRAWN = {
+    "m10n4N5": (
+        "The manuscript states 2.999999 for five four-dimensional subspaces of R^10. The Rankin simplex bound for this "
+        "cell is exactly 3, and the configuration falls short of it by 0.000000005, which is the precision of the search, "
+        "not a property of the problem. The optimum for this cell is very likely exactly 3. A manuscript about this "
+        "cell should prove that with an exact configuration; this one gives a number slightly below it.\n\n"
+        "**This withdrawal concerns the statement; it does not assert that the configuration is wrong.**"),
+    "m12n4N98": (
+        "The manuscript beats the trivial bound for its cell by 0.0000106, the smallest margin in the collection. It "
+        "was obtained by deleting one subspace from this collection's own packing for N = 99 and polishing the rest, "
+        "so it improves on this collection rather than on anything published. The same holds for the manuscript for "
+        "N = 96, withdrawn with it.\n\n"
+        "**This withdrawal concerns significance; it does not assert that the configuration is wrong.**"),
+    "m12n4N96": (
+        "The manuscript beats the trivial bound for its cell by 0.0000117, the second smallest margin in the "
+        "collection. It was obtained by deleting one subspace from this collection's own packing for N = 97 and "
+        "polishing the rest, so it improves on this collection rather than on anything published. The same holds for "
+        "the manuscript for N = 98, withdrawn with it.\n\n"
+        "**This withdrawal concerns significance; it does not assert that the configuration is wrong.**"),
+}
 
 NOUN = {1: ("line", "lines"), 2: ("plane", "planes"), 3: ("three-space", "three-spaces"), 4: ("four-space", "four-spaces")}
 DISCIPLINES = ["Real projective geometry", "Coding theory", "Discrete geometry"]
@@ -280,9 +299,8 @@ def write_preprint(x):
     url = f"{REPO}/blob/main/preprints/{x['slug']}/paper.pdf"
     notice = ""
     if x["cell"] in WITHDRAWN:
-        notice = (f"**Withdrawn on {WITHDRAWN_ON}.**\n\n{WITHDRAWN[x['cell']]}\n\n"
-                  "**This withdrawal concerns significance; it does not assert that the configuration is wrong.** "
-                  "The manuscript and its data remain below.\n\n")
+        notice = (f"**Withdrawn on {WITHDRAWN_ON}.**\n\n{WITHDRAWN[x['cell']]} "
+                  "The manuscript and its data remain below; the result is no longer in the catalogue.\n\n")
     open(os.path.join(d, "README.md"), "w").write(
         f"# [{x['title']}](paper.pdf)\n\n{AUTHOR}  \n{x['date']}\n\n{notice}"
         f"## Check it\n\n```\n{x['check']}\n```\n\nData: [`{x['data']}`](../../{x['data']}). Exact value: `{x['exact']}`.\n\n"

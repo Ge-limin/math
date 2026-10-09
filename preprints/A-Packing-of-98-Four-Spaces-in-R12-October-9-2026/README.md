@@ -3,6 +3,12 @@
 Limin Ge  
 October 9, 2026
 
+**Withdrawn on October 9, 2026.**
+
+The manuscript beats the trivial bound for its cell by 0.0000106, the smallest margin in the collection. It was obtained by deleting one subspace from this collection's own packing for N = 99 and polishing the rest, so it improves on this collection rather than on anything published. The same holds for the manuscript for N = 96, withdrawn with it.
+
+**This withdrawal concerns significance; it does not assert that the configuration is wrong.** The manuscript and its data remain below; the result is no longer in the catalogue.
+
 ## Check it
 
 ```

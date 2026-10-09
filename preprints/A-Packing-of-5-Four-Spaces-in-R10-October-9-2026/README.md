@@ -3,6 +3,12 @@
 Limin Ge  
 October 9, 2026
 
+**Withdrawn on October 9, 2026.**
+
+The manuscript states 2.999999 for five four-dimensional subspaces of R^10. The Rankin simplex bound for this cell is exactly 3, and the configuration falls short of it by 0.000000005, which is the precision of the search, not a property of the problem. The optimum for this cell is very likely exactly 3. A manuscript about this cell should prove that with an exact configuration; this one gives a number slightly below it.
+
+**This withdrawal concerns the statement; it does not assert that the configuration is wrong.** The manuscript and its data remain below; the result is no longer in the catalogue.
+
 ## Check it
 
 ```
