@@ -1,0 +1,31 @@
+# Opens one issue here for every new commit on openai/math, so this collection can follow it.
+name: Follow openai/math
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  follow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open an issue for each new openai/math commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          since=$(date -u -d '3 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh api "repos/openai/math/commits?since=$since&per_page=100" \
+            --jq '.[] | [.sha, (.commit.message | split("\n")[0]), .html_url] | @tsv' |
+          while IFS=$'\t' read -r sha subject url; do
+            short=${sha:0:7}
+            if gh issue list -R "$GITHUB_REPOSITORY" --state all --search "$short in:title" --json number --jq 'length' | grep -qx 0; then
+              files=$(gh api "repos/openai/math/commits/$sha" --jq '[.files[].filename | split("/")[0:2] | join("/")] | unique | .[:30] | map("- `" + . + "`") | join("\n")')
+              gh issue create -R "$GITHUB_REPOSITORY" \
+                --title "openai/math updated: $subject ($short)" \
+                --body "$(printf 'New commit on openai/math: %s\n\nTouched (first 30 paths):\n%s\n\nIf it adds, revises or withdraws manuscripts, or changes README / history.md, mirror it here.' "$url" "$files")"
+            fi
+          done
