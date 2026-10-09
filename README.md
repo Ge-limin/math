@@ -28,6 +28,8 @@ We are also releasing abridged summaries of the model's reasoning, covering the 
 | — | [Eighteen cells the E8 lattice had already won](reasoning_traces/e8-lines.md) |
 | 001–026 | [Reaching 722, then 719](reasoning_traces/reaching-722.md) |
 
+The release notes for this collection: [Sharing our AI progress in mathematics](https://liminge.space/blog/sharing-our-ai-progress-in-mathematics) ([中文](https://liminge.space/cn/blog/sharing-our-ai-progress-in-mathematics)).
+
 ## How the results were produced
 
 All results were obtained with the same procedure using Claude Opus 5.5. On average, each Grassmannian result used about two minutes of laptop compute, with about ten searches running at once; the whole collection took one night, October 8–9, 2026. Over the course of the evaluation, the model was posed approximately two problems: fill the blank cells, and reach 722. Aggregating the output into result families and manuscripts and requiring an appropriate level of significance led to the catalog outlined above.
