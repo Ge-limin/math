@@ -1,3 +1,9 @@
+> On October 6, OpenAI published [722 papers](https://github.com/openai/math) and withdrew 3, averaging three hours of ChatGPT Pro computing power per result. On October 9, I published 722 papers and withdrew 3, averaging one minute of my laptop's computing power per result. This is an absurd time. If OpenAI can publish, so can I. As for what all this means for mathematics and humanity, no one knows, and I don't know either.
+>
+> 10 月 6 日，OpenAI 发布 [722 篇论文](https://github.com/openai/math)，撤回 3 篇，平均每个结果耗费三小时 ChatGPT Pro 算力。10月9号，我发布了 722 篇论文，撤回 3 篇，平均每个结果耗费1分钟我的笔记本算力。这是一个荒谬的时代，OpenAI 能发，我也能发。至于这一切对数学和人类意味着什么，没人知道，我也不知道。
+>
+> Release notes / 发布说明: [Sharing our AI progress in mathematics](https://liminge.space/blog/sharing-our-ai-progress-in-mathematics) · [中文](https://liminge.space/cn/blog/sharing-our-ai-progress-in-mathematics)
+
 # Readme
 
 This repository contains mathematical manuscripts and supporting verification artifacts produced by Claude, a publicly available Anthropic model, on one laptop.
@@ -27,8 +33,6 @@ We are also releasing abridged summaries of the model's reasoning, covering the 
 | 001–025 | [The 609 cells someone had already filled](reasoning_traces/already-filled-cells.md) |
 | — | [Eighteen cells the E8 lattice had already won](reasoning_traces/e8-lines.md) |
 | 001–026 | [Reaching 722, then 719](reasoning_traces/reaching-722.md) |
-
-The release notes for this collection: [Sharing our AI progress in mathematics](https://liminge.space/blog/sharing-our-ai-progress-in-mathematics) ([中文](https://liminge.space/cn/blog/sharing-our-ai-progress-in-mathematics)).
 
 ## How the results were produced
 
